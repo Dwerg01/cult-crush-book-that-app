@@ -50,18 +50,30 @@
           "settings": {
           }
         },
-        "b0449021-0f0f-4172-967c-04b2e994ed8b": {
-          "type": "collapsible_tab",
+        "457aaf87-9e7b-41c5-b95e-181178ba9dbe": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "heading": "SIZE AVAILABLE",
-            "icon": "ruler",
-            "content": "<p><strong>SMALL<\/strong><\/p>",
-            "page": ""
+          }
+        },
+        "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
           }
         },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "b0449021-0f0f-4172-967c-04b2e994ed8b": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "SIZE AVAILABLE",
+            "icon": "ruler",
+            "content": "<p><strong>SMALL<\/strong><\/p>",
+            "page": ""
           }
         },
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59": {
@@ -76,27 +88,10 @@
           "settings": {
           }
         },
-        "18c0ee04-729d-4bea-aa0e-a288da15baad": {
-          "type": "shopify:\/\/apps\/izyrent-rentals-bookings\/blocks\/productCalendar\/cda4a37a-6d4d-4f3d-b8e5-c19d5c367c6a",
-          "disabled": true,
-          "settings": {
-            "product": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "84db2b0e-a15b-454c-99fb-ea594f733a56": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
           }
         },
         "c997c9cf-29ab-4947-aa1c-5e4565170753": {
@@ -163,11 +158,6 @@
             "share_label": "Share"
           }
         },
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "bdff7840-2d1b-4325-9262-88a077d25607": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -177,34 +167,19 @@
             "content": "<p>Wear a strapless bra or <a href=\"https:\/\/www.cultcrush.co.za\/products\/booby-tape\" target=\"_blank\" title=\"Booby Tape\">Booby Tape<\/a>.<\/p>",
             "page": ""
           }
-        },
-        "2b858ce7-3942-4538-8a13-6581ecbf8d1b": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
-        "047c4fa4-c635-4e7c-8099-a2b9b8038c15": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "vendor",
         "variant_picker",
         "title",
-        "b0449021-0f0f-4172-967c-04b2e994ed8b",
+        "457aaf87-9e7b-41c5-b95e-181178ba9dbe",
+        "64f0c0c1-7baa-48f9-9294-36fef877a15e",
         "price",
+        "b0449021-0f0f-4172-967c-04b2e994ed8b",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
         "quantity_selector",
-        "18c0ee04-729d-4bea-aa0e-a288da15baad",
         "buy_buttons",
-        "84db2b0e-a15b-454c-99fb-ea594f733a56",
         "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "description",
         "collapsible-row-0",
@@ -213,10 +188,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e",
-        "bdff7840-2d1b-4325-9262-88a077d25607",
-        "2b858ce7-3942-4538-8a13-6581ecbf8d1b",
-        "047c4fa4-c635-4e7c-8099-a2b9b8038c15"
+        "bdff7840-2d1b-4325-9262-88a077d25607"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -233,6 +205,11 @@
       "type": "apps",
       "disabled": true,
       "blocks": {
+        "3feac55b-f80f-4b82-8bb9-e76e5772f15e": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "2ef4df28-11ea-470b-9df0-9aa1b71b86e4": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -250,6 +227,7 @@
         }
       },
       "block_order": [
+        "3feac55b-f80f-4b82-8bb9-e76e5772f15e",
         "2ef4df28-11ea-470b-9df0-9aa1b71b86e4",
         "dca59cd4-11ca-405b-b8b9-1a7ff8c95171"
       ],
@@ -279,18 +257,6 @@
     },
     "165460806471747f0a": {
       "type": "apps",
-      "blocks": {
-        "6e0475a7-c4c3-490c-bcb8-b0c50218ac52": {
-          "type": "shopify:\/\/apps\/izyrent-rentals-bookings\/blocks\/globalCalendar\/cda4a37a-6d4d-4f3d-b8e5-c19d5c367c6a",
-          "settings": {
-            "range": true,
-            "collection": "browse-all-rentals"
-          }
-        }
-      },
-      "block_order": [
-        "6e0475a7-c4c3-490c-bcb8-b0c50218ac52"
-      ],
       "settings": {
         "include_margins": true
       }
