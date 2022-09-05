@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "1658845888f40688e3": {
+      "type": "apps",
+      "blocks": {
+        "dc954cb9-4e4c-4f23-9b3c-7a544fc4a1e2": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "\/",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "dc954cb9-4e4c-4f23-9b3c-7a544fc4a1e2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1654949375e331a2f3": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "165494937545473179-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "165494937545473179-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165494937545473179-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165494937545473179-0",
+        "165494937545473179-1",
+        "165494937545473179-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Add_a_headig_4_92e6f501-8bad-4761-8175-a378675dc89d.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16577041927cdff62a": {
+      "type": "rich-text",
+      "blocks": {
+        "1657704192ec274365-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FIND YOUR PERFECT FIT<\/p>"
+          }
+        },
+        "1657704192ec274365-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIZE GUIDE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1657704192ec274365-1",
+        "1657704192ec274365-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "16577042913ad2e52e": {
+      "type": "rich-text",
+      "blocks": {
+        "1657704290a6fd7f77-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To discover a more accurate fit for your rental, we have provided a size guide per designer for your assurance. Please refer to the size guide of the brand you are renting.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657704290a6fd7f77-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1658743152ea78619d": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/Add_a_headig_YouTube_Thumbnail.jpg",
+        "video_url": "https:\/\/vimeo.com\/735194318",
+        "description": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bced37c31f142218d4420b24048fd63.mp4",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165770872004957d0d": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "16577087193a8a1a5f-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW TO MEASURE YOUR BODY",
+            "icon": "none",
+            "row_content": "",
+            "page": "how-to-measure-your-body-guide"
+          }
+        }
+      },
+      "block_order": [
+        "16577087193a8a1a5f-1"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16577045067e8af01e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1657704506c8be95b9-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ALAMOUR THE LABEL",
+            "icon": "none",
+            "row_content": "",
+            "page": "alamour-the-label-size-guide"
+          }
+        },
+        "1657704506c8be95b9-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "RAT & BOA",
+            "icon": "none",
+            "row_content": "",
+            "page": "rat-boa-size-guide"
+          }
+        },
+        "1657704506c8be95b9-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOUSE OF CB",
+            "icon": "none",
+            "row_content": "",
+            "page": "house-of-cb"
+          }
+        },
+        "1657704506c8be95b9-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "BEGINNING BOUTIQUE",
+            "icon": "none",
+            "row_content": "",
+            "page": "beginning-boutique-size-guide"
+          }
+        },
+        "166b251a-b450-449a-bfdd-ac524c65f0df": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "PRETTY LITTLE THING",
+            "icon": "none",
+            "row_content": "",
+            "page": "pretty-little-thing-size-guide"
+          }
+        },
+        "8e11aa45-b0e4-4f2f-8124-6ed81c9561f1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ASOS",
+            "icon": "none",
+            "row_content": "",
+            "page": "asos-size-guide"
+          }
+        },
+        "28e7cda5-5a53-44a3-994e-29b445e187a2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SABO SKIRT",
+            "icon": "none",
+            "row_content": "",
+            "page": "sabo-skirt-size-guide"
+          }
+        },
+        "2215789d-2f4d-42ca-8c99-bebfbeef7dfa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "IAM WOMAN",
+            "icon": "none",
+            "row_content": "",
+            "page": "iam-woman-size-guide"
+          }
+        },
+        "a7c2d972-befd-4866-8ebb-708e32d58307": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ZARA",
+            "icon": "none",
+            "row_content": "",
+            "page": "zara-size-guide"
+          }
+        }
+      },
+      "block_order": [
+        "1657704506c8be95b9-0",
+        "1657704506c8be95b9-1",
+        "1657704506c8be95b9-2",
+        "1657704506c8be95b9-3",
+        "166b251a-b450-449a-bfdd-ac524c65f0df",
+        "8e11aa45-b0e4-4f2f-8124-6ed81c9561f1",
+        "28e7cda5-5a53-44a3-994e-29b445e187a2",
+        "2215789d-2f4d-42ca-8c99-bebfbeef7dfa",
+        "a7c2d972-befd-4866-8ebb-708e32d58307"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "DESIGNER'S SIZE GUIDES",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/CC_How_To_Measure_c7741024-9ec4-4ae3-b74f-b8592d71e2af.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1658845888f40688e3",
+    "1654949375e331a2f3",
+    "16577041927cdff62a",
+    "16577042913ad2e52e",
+    "main",
+    "1658743152ea78619d",
+    "165770872004957d0d",
+    "16577045067e8af01e"
+  ]
+}

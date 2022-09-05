@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1654079041e113480a": {
+      "type": "image-banner",
+      "blocks": {
+        "165407904172e09299-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "CULT CRUSH CREW",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "165407904172e09299-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_d56d30db-534f-4dd1-b464-90506b30c2d1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165408061162e30609": {
+      "type": "rich-text",
+      "blocks": {
+        "16540806117c3dd7ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENT. RETURN. REPEAT.",
+            "heading_size": "h2"
+          }
+        },
+        "16540806117c3dd7ff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>See and hear more from other bad-ass Cult Crush connoisseurs (brb just swooning over their looks). <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16540806117c3dd7ff-0",
+        "16540806117c3dd7ff-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1658846141e1e4e91b": {
+      "type": "apps",
+      "blocks": {
+        "3a23415e-b153-4b62-b203-88eb039c0de5": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "\/",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "3a23415e-b153-4b62-b203-88eb039c0de5"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1654082537d826f594": {
+      "type": "collage",
+      "blocks": {
+        "287811a4-67ce-4035-80ba-8ef2f616e251": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WistfulGreenMidiDress-2_500x.progressive_ace0b027-d6a5-40d1-ad77-7619da8d14f1.jpg",
+            "image_padding": false
+          }
+        },
+        "c14875ae-2f06-4dfa-a28e-c28983ffdaff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JuliaCrochetHalterMidiDressBrown-1_1500x.progressive_0b2af4fe-54d0-4861-ba68-8abedb8f42bc.jpg",
+            "image_padding": false
+          }
+        },
+        "5a04cbc7-6de3-4d92-bf1c-fa26b2f8abfa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SchifferSlipMidiDressMelon-2_1500x.progressive_b4abb97c-7f7d-4aca-9522-6c54f444c07b.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "287811a4-67ce-4035-80ba-8ef2f616e251",
+        "c14875ae-2f06-4dfa-a28e-c28983ffdaff",
+        "5a04cbc7-6de3-4d92-bf1c-fa26b2f8abfa"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 80
+      }
+    },
+    "16552933893156db34": {
+      "type": "rich-text",
+      "blocks": {
+        "16552933897af2b1c3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHAT OUR CULT CRUSH CREW HAVE TO SAY",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16552933897af2b1c3-0"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1654083750d9a04fa1": {
+      "type": "multicolumn",
+      "blocks": {
+        "1654083750cb5fa1a1-0": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/Peach_Beige_Pastel_Ilustration_Testimonial_Instagram_Story_1080_x_1080_px.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1654083750cb5fa1a1-1": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-2_1500x.progressive_2031ec18-b09a-46ed-9973-a9962833ea53.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1654083750cb5fa1a1-2": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "image": "shopify:\/\/shop_images\/TaleahCutoutRed-1_1500x.progressive_35cf316f-de1c-462a-89b2-c3f55f006fb0.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654083750cb5fa1a1-0",
+        "1654083750cb5fa1a1-1",
+        "1654083750cb5fa1a1-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "START RENTING",
+        "button_link": "shopify:\/\/collections\/collections",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-2",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    },
+    "16540812627cc0659a": {
+      "type": "image-banner",
+      "blocks": {
+        "16540812629acff1fb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MORE ABOUT CULT CRUSH",
+            "heading_size": "medium"
+          }
+        },
+        "16540812629acff1fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "16540812629acff1fb-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ABOUT",
+            "button_link_1": "shopify:\/\/pages\/about",
+            "button_style_secondary_1": false,
+            "button_label_2": "CONTACT",
+            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16540812629acff1fb-0",
+        "16540812629acff1fb-1",
+        "16540812629acff1fb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/279_1600x_3b1e6ffa-1c94-4801-9179-9bc5d1504aa7.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16540803883c0e75e0": {
+      "type": "newsletter",
+      "blocks": {
+        "16540803885ccff29d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE TO OUR EMAILS"
+          }
+        },
+        "16540803885ccff29d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16540803885ccff29d-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16540803885ccff29d-0",
+        "16540803885ccff29d-1",
+        "16540803885ccff29d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654079041e113480a",
+    "165408061162e30609",
+    "1658846141e1e4e91b",
+    "1654082537d826f594",
+    "16552933893156db34",
+    "1654083750d9a04fa1",
+    "16540812627cc0659a",
+    "16540803883c0e75e0"
+  ]
+}

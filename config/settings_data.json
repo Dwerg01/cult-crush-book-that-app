@@ -1,0 +1,377 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#000000",
+    "colors_accent_2": "#dabfac",
+    "colors_text": "#000000",
+    "colors_outline_button_labels": "#000000",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#dabfac",
+    "gradient_background_2": "",
+    "type_header_font": "itc_bodoni_twelve_n4",
+    "type_body_font": "lato_n3",
+    "page_width": 1300,
+    "spacing_grid_horizontal": 12,
+    "spacing_grid_vertical": 4,
+    "buttons_border_thickness": 0,
+    "buttons_border_opacity": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": -12,
+    "buttons_shadow_vertical_offset": -12,
+    "inputs_shadow_vertical_offset": 12,
+    "card_style": "card",
+    "card_text_alignment": "center",
+    "card_color_scheme": "background-1",
+    "text_boxes_border_thickness": 0,
+    "media_border_thickness": 0,
+    "badge_position": "top right",
+    "sale_badge_color_scheme": "background-2",
+    "accent_icons": "text",
+    "social_facebook_link": "https:\/\/www.facebook.com\/CultCrush",
+    "social_pinterest_link": "https:\/\/za.pinterest.com\/CultCrushcoza",
+    "social_instagram_link": "https:\/\/www.instagram.com\/cultcrush.co.za\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@cultcrush.co.za",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCYgjZrToKz79Dq5ynlNT2MQ",
+    "predictive_search_show_vendor": true,
+    "predictive_search_show_price": true,
+    "favicon": "shopify:\/\/shop_images\/CultCrush_icon_transparent.png",
+    "currency_code_enabled": false,
+    "checkout_header_image": "shopify:\/\/shop_images\/Untitled_design_1_0331682e-98d5-49a8-9b1b-12167707dd13.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Untitled_302_x_201_px_201_x_302_px_1.png",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#dabfac",
+    "checkout_heading_font": "Lato",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#dabfac",
+    "checkout_button_color": "#dabfac",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "RECEIVE 10% OFF YOUR FIRST ORDER - USE CODE #CC10%OFF AT CHECKOUT | T & C's Apply",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/CultCrush_logo_blk_translucent_36808fa3-ffa8-4f29-bea3-c4ae933d8aa2.png",
+          "logo_width": 250,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": false,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "LET US HELP YOU",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "USEFUL LINKS",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "OUR MISSION",
+              "subtext": "<p>At Cult Crush, you can rent exclusive, designer looks (in inclusive sizing) for events, and then send them back to us when you’re done. Welcome to easy, affordable, considered fashion consumption.<\/p>"
+            }
+          },
+          "a21162d9-8f46-4199-924a-95badf3d7dc5": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/payemnt-icons-paygate-logo-banner.png",
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
+          "4e6e4972-3eb5-4457-bc26-c6ccd6887030": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Untitled_302_x_201_px_201_x_302_px_5.png",
+              "image_width": 200,
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "a21162d9-8f46-4199-924a-95badf3d7dc5",
+          "4e6e4972-3eb5-4457-bc26-c6ccd6887030"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "SUBSCRIBE TO OUR MAILS",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true,
+          "margin_top": 0,
+          "padding_top": 40,
+          "padding_bottom": 0
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/CultCrush_logo_blk_translucent_cff2bbd3-de2b-4051-b49a-73872835c86c.png",
+          "logo_max_width": 250,
+          "color_scheme": "accent-2"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-2"
+        }
+      },
+      "ets_instagram_shopping_slider": {
+        "type": "ets_instagram_shopping_slider",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "ets_instagram_shopping_slider"
+    ],
+    "blocks": {
+      "6472724134860490182": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/breadcrumb\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "3650027678699231211": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/article\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "author": "",
+          "publisher": "",
+          "publisherLogoURL": ""
+        }
+      },
+      "18331215849590791805": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/carousel\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15640154714208799765": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/localBusiness\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "businessType": "AccountingService",
+          "businessName": "",
+          "servesCuisine": "",
+          "streetAddress": "",
+          "addressLocality": "",
+          "region": "",
+          "postalCode": "",
+          "telephone": "",
+          "priceRangeFrom": "",
+          "priceRangeto": "",
+          "DaysOfWeek": "",
+          "opens": "",
+          "closes": ""
+        }
+      },
+      "44692493664754031": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/howTo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6039927293107162517": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/logo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "businessName": "",
+          "url": "",
+          "description": "",
+          "twitterUrl": "",
+          "facebookUrl": "",
+          "instagramUrl": "",
+          "pinterestUrl": "",
+          "linkedinUrl": "",
+          "telephone": "",
+          "streetAddress": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "zipCode": "",
+          "isReviewAvailable": "no",
+          "reviewCount": "",
+          "ratingValue": "",
+          "bestRating": "",
+          "worstRating": ""
+        }
+      },
+      "13647546867862338453": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/product\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "isShopifyName": "shopify",
+          "reviewsFrom": "none",
+          "moneyFormat": "amount",
+          "globalIdentifier": "none"
+        }
+      },
+      "16565178295617612884": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/recipe\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9467949409069952136": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/productFAQ\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9389739334699838615": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/search\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "searchVariable": "search?q={search_term}"
+        }
+      },
+      "8882555360308167327": {
+        "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/schema-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "judgeme_core_727e5154": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8199245848789245148": {
+        "type": "shopify:\/\/apps\/esenca-easy-fit\/blocks\/app-embed-block\/0d3b0d1a-d7c1-4cca-af36-947d0b6f12af",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "12654720250257946533": {
+        "type": "shopify:\/\/apps\/bookthatapp\/blocks\/app-embed\/447b4be3-b8e8-4347-959f-d9a05d4b2d5d",
+        "disabled": true,
+        "settings": {
+          "widget_type_1": "none",
+          "widget_position_1": "bottom_right",
+          "widget_type_2": "none",
+          "widget_position_2": "bottom_left"
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        },
+        "ets_instagram_shopping_slider": {
+          "type": "ets_instagram_shopping_slider",
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "ets_instagram_shopping_slider"
+      ]
+    }
+  }
+}

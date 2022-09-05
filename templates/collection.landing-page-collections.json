@@ -1,0 +1,444 @@
+{
+  "sections": {
+    "16547667736d61f2cd": {
+      "type": "image-banner",
+      "blocks": {
+        "16547667736549162d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16547667736549162d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16547667736549162d-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16547667736549162d-0",
+        "16547667736549162d-1",
+        "16547667736549162d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6_c8683d00-f06b-4c84-a8e3-caadff370d14.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1658146821c50010ec": {
+      "type": "apps",
+      "blocks": {
+        "43ebb402-2806-4b84-95a6-eaff04e01e5a": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "43ebb402-2806-4b84-95a6-eaff04e01e5a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1652698755e5d6d0f9": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "fcd6e01d-e666-4f34-837b-d5ef08e97b29": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RENT BY<\/p>"
+          }
+        },
+        "16526987556f86a2cf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "COLLECTION",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "fcd6e01d-e666-4f34-837b-d5ef08e97b29",
+        "16526987556f86a2cf-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "165269825635da1d00": {
+      "type": "image-with-text",
+      "blocks": {
+        "16526982562cfbf720-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BASIC",
+            "heading_size": "h1"
+          }
+        },
+        "16526982562cfbf720-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basic, but not basic b*tch. <\/p><p>Everyday wear that is simple, casual, and easy-to-style but never boring. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16526982562cfbf720-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/basic"
+          }
+        }
+      },
+      "block_order": [
+        "16526982562cfbf720-0",
+        "16526982562cfbf720-1",
+        "16526982562cfbf720-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-2_1500x.progressive_2031ec18-b09a-46ed-9973-a9962833ea53.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "165269493091b44439": {
+      "type": "image-with-text",
+      "blocks": {
+        "165269493025031793-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURVY",
+            "heading_size": "h1"
+          }
+        },
+        "165269493025031793-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Must-have dresses in more inclusive sizes, so you can find the perfect fit for your curves. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "165269493025031793-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/curvy"
+          }
+        }
+      },
+      "block_order": [
+        "165269493025031793-0",
+        "165269493025031793-1",
+        "165269493025031793-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654253497f173b73e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542534973eba5832-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BOHO",
+            "heading_size": "h1"
+          }
+        },
+        "16542534973eba5832-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A laid-back collection of flowing fabrics, sheer delights, relaxed fits and bright prints, perfect for long, lazy festival days (or trips to the cold-pressed juice store). <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542534973eba5832-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/boho"
+          }
+        }
+      },
+      "block_order": [
+        "16542534973eba5832-0",
+        "16542534973eba5832-1",
+        "16542534973eba5832-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_1600x_5171d6d8-7049-4b76-b201-9086ca4dacb9.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654252953fb154469": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542529539835b620-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LUXE",
+            "heading_size": "h1"
+          }
+        },
+        "16542529539835b620-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Time to turn heads? <\/p><p>Browse our high-end, high-quality, and luxurious big-event dresses that you’ll never forget wearing. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542529539835b620-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/luxe"
+          }
+        }
+      },
+      "block_order": [
+        "16542529539835b620-0",
+        "16542529539835b620-1",
+        "16542529539835b620-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/69_1600x_56ba9fb3-2f40-44e0-b38d-55fd2d18a2c8.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654603414c39a9ac4": {
+      "type": "rich-text",
+      "blocks": {
+        "1654603414f85a2ef0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DISCOVER MORE<\/p>"
+          }
+        },
+        "1654603414f85a2ef0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BROWSE RENTALS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1654603414f85a2ef0-1",
+        "1654603414f85a2ef0-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "16546033971171018d": {
+      "type": "multicolumn",
+      "blocks": {
+        "165460339754eb9040-0": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/browse-all-rentals",
+            "image": "shopify:\/\/shop_images\/tibi-b11.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "BROWSE ALL",
+            "link": "shopify:\/\/collections\/browse-all-rentals"
+          }
+        },
+        "165460339754eb9040-1": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/all-brands",
+            "image": "shopify:\/\/shop_images\/anastasia-4_836x_d702395d-4a2b-4cee-9318-bede90d33cf4.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "RENT BY DESIGNER",
+            "link": "shopify:\/\/collections\/all-brands"
+          }
+        },
+        "165460339754eb9040-2": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/occasions",
+            "image": "shopify:\/\/shop_images\/WistfulGreenMidiDress-2_500x.progressive_ace0b027-d6a5-40d1-ad77-7619da8d14f1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "RENT BY OCCASION",
+            "link": "shopify:\/\/collections\/occasions"
+          }
+        }
+      },
+      "block_order": [
+        "165460339754eb9040-0",
+        "165460339754eb9040-1",
+        "165460339754eb9040-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1652698573f61b9264": {
+      "type": "rich-text",
+      "blocks": {
+        "1652698573e72f9595-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW  IT  WORKS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1652698573e72f9595-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 16
+      }
+    },
+    "165763504470c11f70": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-21_at_15.51.25.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16576350866e9626ce": {
+      "type": "rich-text",
+      "blocks": {
+        "1657635086731bf888-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE INFO",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657635086731bf888-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16547667736d61f2cd",
+    "1658146821c50010ec",
+    "1652698755e5d6d0f9",
+    "165269825635da1d00",
+    "165269493091b44439",
+    "1654253497f173b73e",
+    "1654252953fb154469",
+    "1654603414c39a9ac4",
+    "16546033971171018d",
+    "1652698573f61b9264",
+    "165763504470c11f70",
+    "16576350866e9626ce"
+  ]
+}

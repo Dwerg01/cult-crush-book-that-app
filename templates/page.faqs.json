@@ -1,0 +1,361 @@
+{
+  "sections": {
+    "1654949375e331a2f3": {
+      "type": "image-banner",
+      "blocks": {
+        "165494937545473179-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "165494937545473179-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165494937545473179-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165494937545473179-0",
+        "165494937545473179-1",
+        "165494937545473179-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Add_a_headig_3_e916c742-f070-4637-a3cb-08846700c85a.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16588457688a8b0be2": {
+      "type": "apps",
+      "blocks": {
+        "7417ea9b-c710-4dc3-8018-6eccb1add02d": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "\/",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "7417ea9b-c710-4dc3-8018-6eccb1add02d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1658148714e57c5d2e": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16554577990dd87b52": {
+      "type": "rich-text",
+      "blocks": {
+        "165545779901445e20-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE WANT TO MAKE THIS EASY. HAVE A LOOK HERE TO SEE IF WE CAN ANSWER YOUR QUESTIONS.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "165545779901445e20-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1655458026ee9ed4ab": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165545802658c33cd3-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW LONG CAN I RENT FOR?",
+            "icon": "check_mark",
+            "row_content": "<p>Rental duration is 4 days. If you want to rent if for longer, email: <a href=\"mailto:hello@cultcrush.co.za\">hello@cultcrush.co.za<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "796e9325-dd87-4135-9064-c4d6b891becf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW FAR IN ADVANCE SHOULD I BOOK MY LOOK?",
+            "icon": "check_mark",
+            "row_content": "<p>You can book an item up to 3 months in advance, and it should be booked a minimum of 2 days before your event. <\/p><p>Bookings can only be made for the next day subject to availability, and must be processed before 12pm. <\/p><p>For a weekend event, select the Thursday as the start of your rental period (2 days before your event), as we don’t deliver on weekends.<\/p>",
+            "page": ""
+          }
+        },
+        "165545802658c33cd3-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DO YOU DELIVER ON WEEKENDS AND HOLIDAYS?",
+            "icon": "check_mark",
+            "row_content": "<p>Good question! <\/p><p>No, we do not. For a weekend event, select the Thursday as the start of your rental period (2 days before your event), as we don’t deliver or do collections on weekends.<\/p>",
+            "page": ""
+          }
+        },
+        "42475e12-b59a-4dbf-930f-c48c4a5a5bcd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHEN AND WHERE DOES THE ITEM GET DELIVERED AND COLLECTED?",
+            "icon": "check_mark",
+            "row_content": "<p>Your package will be delivered by 11am on your chosen delivery weekday (this will be day 1 of your rental period). <\/p><p>Your package will be collected on Day 4, between 8am and 12pm from the same delivery address. <\/p><p>Failure to be available for collection will result in late fees. <\/p><p>Please ensure your package is ready for collection and re-packed in the reusable box, placed inside the courier flyer and with the pre-printed Waybill attached.<\/p><p><\/p><p>The package will be delivered to, and collected from, the same address.<\/p>",
+            "page": ""
+          }
+        },
+        "165545802658c33cd3-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHOULD I CLEAN THE ITEM BEFORE I RETURN IT?",
+            "icon": "check_mark",
+            "row_content": "<p>No, thank you. <\/p><p>Do not clean the garment. <\/p><p>We dry-clean every garment. <\/p><p>Each rental fee includes a Snag and Spill insurance that has you covered in the case of losing a button, a broken strap or a minor champagne spill. <\/p><p>However, if an item is damaged beyond repair or is in need of specialised cleaning, please let us know immediately by emailing: hello@cultcrush.co.za. <\/p><p>Up to 125% of the Retail Value will apply if items are damaged beyond repair, lost or stolen. <\/p><p>You can also take a look at our <a href=\"\/pages\/ts-and-cs\" target=\"_blank\" title=\"Terms and Conditions\"><span style=\"text-decoration:underline\">T+Cs<\/span><\/a> for worst-case scenarios.<\/p>",
+            "page": ""
+          }
+        },
+        "b4ea465e-e82f-4a4a-8f63-6208d1f27bf3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW DO I PAY?",
+            "icon": "check_mark",
+            "row_content": "<p>We accept all major credit cards through Paygate. <\/p><p>We don’t accept efts or debit cards, sorry!<\/p>",
+            "page": ""
+          }
+        },
+        "165545802658c33cd3-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I RETURN AN ITEM RIGHT AWAY IF I DON'T LIKE IT?",
+            "icon": "check_mark",
+            "row_content": "<p>Sure! <\/p><p>If you’d like to return your order, please let us know within 4 hours of delivery, by sending a Whatsapp to 063 035 2244 or emailing hello@cultcrush.co.za. <\/p><p>If the tag has not been removed from the item, we will issue you with a gift card to the value of the rental amount, minus the delivery cost (R150), admin & sanitisation fee (R70) and the manual waybill fee (R25).<\/p><p>The dress will be collected by our courier as soon as possible. <\/p>",
+            "page": ""
+          }
+        },
+        "96057fc0-7e3c-4c1d-8426-b08c541cbd7d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DO YOU OFFER A TRY ON SERVICE?",
+            "icon": "check_mark",
+            "row_content": "<p>We do! <\/p><p>You can book your favourite dress to try-on for R350. <\/p><p>Delivery will take place on a Monday by 11am. The dress will then be collected the next day by 12pm. <\/p><p>Please ensure that the tag is on your try-on dress when it is collected, otherwise a rental fee will be charged. <\/p><p>If you like it and want to wear it that week, let us know and depending on availability you will be allowed to keep your chosen dress.<\/p><p>You will also get a 15% discount code as long as you book your selected dress within 7 days of the try on.<\/p>",
+            "page": ""
+          }
+        },
+        "3ab0b4da-b298-47de-8e6c-5517fad58141": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT IS A BACK UP DRESS?",
+            "icon": "check_mark",
+            "row_content": "<p>Our Back up Dress option allows you to book 2 dresses and use the code BACKUPDRESS at checkout, to get 80% off the cheaper dress! <\/p><p>When your 2 dresses are delivered, you can try on both styles and choose to wear one. <\/p><p>Keep the tag attached to the style you do not wear, otherwise the full rental price for the backup dress will be charged. <\/p><p>Both dresses will be collected on Day 4 of your rental period. <\/p><p>If you don’t like either dress, you can return them, just WhatsApp 063 035 2244 or email hello@cultcrush.co.za within 4 hours of receiving the dresses, and we will send a courier to collect the package as soon as possible. <\/p><p>We will issue you a gift card of the rental value of the most expensive dress, minus courier cost (R150) and admin & sanitisation fee (R70), and the manual waybill fee (R25). <\/p><p>Remember to keep the tags attached to both styles, otherwise the full rental price for both items will be charged.<\/p>",
+            "page": ""
+          }
+        },
+        "d212aca5-2b52-4f84-8688-bd975c301afa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHERE DO WE SHIP TO?",
+            "icon": "check_mark",
+            "row_content": "<p>We ship to South Africa only.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165545802658c33cd3-0",
+        "796e9325-dd87-4135-9064-c4d6b891becf",
+        "165545802658c33cd3-1",
+        "42475e12-b59a-4dbf-930f-c48c4a5a5bcd",
+        "165545802658c33cd3-2",
+        "b4ea465e-e82f-4a4a-8f63-6208d1f27bf3",
+        "165545802658c33cd3-3",
+        "96057fc0-7e3c-4c1d-8426-b08c541cbd7d",
+        "3ab0b4da-b298-47de-8e6c-5517fad58141",
+        "d212aca5-2b52-4f84-8688-bd975c301afa"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165545926604e0c935": {
+      "type": "rich-text",
+      "blocks": {
+        "429b4f27-f937-4409-8ca4-cf49a37ae347": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you can’t find your answer above, hit us up on hello@cultcrush.co.za  or simply<\/strong><\/p>"
+          }
+        },
+        "165545926623e9a230-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FILL OUT THE CONTACT FORM BELOW",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "429b4f27-f937-4409-8ca4-cf49a37ae347",
+        "165545926623e9a230-0"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 4
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165545971345ae09c1": {
+      "type": "rich-text",
+      "blocks": {
+        "1655459713f1c29b34-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENT BY DATE",
+            "heading_size": "h1"
+          }
+        },
+        "1655459713f1c29b34-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ready to rent & have a specific date in mind? <\/strong><\/p><p><strong>Search by your specified dates below to view the available rentals:<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1655459713f1c29b34-0",
+        "1655459713f1c29b34-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 12
+      }
+    },
+    "16554596624a755daa": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1655460045d343c7fc": {
+      "type": "rich-text",
+      "blocks": {
+        "1655460045ef64d152-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BROWSE ALL RENTALS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1655460045ef64d152-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 84,
+        "padding_bottom": 0
+      }
+    },
+    "1655459709b40ab08a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "browse-all-rentals",
+        "products_to_show": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 8,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "1654949375e331a2f3",
+    "16588457688a8b0be2",
+    "1658148714e57c5d2e",
+    "16554577990dd87b52",
+    "main",
+    "1655458026ee9ed4ab",
+    "165545926604e0c935",
+    "form",
+    "165545971345ae09c1",
+    "16554596624a755daa",
+    "1655460045d343c7fc",
+    "1655459709b40ab08a"
+  ]
+}

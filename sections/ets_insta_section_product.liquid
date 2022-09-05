@@ -1,0 +1,423 @@
+{% if section.settings.enable_section == '1' %}
+{% assign eiss_link_profile = "https://www.instagram.com/basicboutiqueza/" %}
+{% assign eiss_displayname = "Instagram Shop" %}
+{% assign eiss_section_padding = section.settings.section_padding |plus:0 %}
+<div class="ets-instagram-ss"
+     data-photo-gallery="tagged_current_product"
+     data-photo-filter-init="{{ section.settings.photo_effect_filter_init }}"
+     data-photo-filter-hover="{{ section.settings.photo_effect_filter_hover }}"
+     data-init-displayed="{{ section.settings.init_displayed }}"
+     data-max-displayed="{{ section.settings.max_displayed }}"
+     data-carousel-displayed="{{ section.settings.carousel_displayed }}"
+     data-per-row-desktop="{{ section.settings.per_row_desktop }}"
+     data-per-row-tablet="{{ section.settings.per_row_tablet }}"
+     data-per-row-mobile="{{ section.settings.per_row_mobile }}"
+     data-photo-spacing="{{ section.settings.photo_spacing }}"
+     data-layout-type="{{ section.settings.layout_type }}"
+     data-slide-mobile="{{ section.settings.force_slide_on_mobile }}"
+     data-carousel-autoplay="{{ section.settings.carousel_autoplay }}"
+     data-carousel-delay="{{ section.settings.carousel_delay }}"
+     data-carousel-loop="{{ section.settings.carousel_loop }}"
+     data-shopnow-title="{{ section.settings.shopnow_btn_title }}"
+     data-shopnow-enable="{{ section.settings.shopnow_enable }}"
+     data-shopnow-bg-color="{{ section.settings.shopnow_btn_bg_color }}"
+     data-shopnow-bg-color-hover="{{ section.settings.shopnow_btn_bg_color_hover }}"
+     data-shopnow-border-color="{{ section.settings.shopnow_btn_border_color }}"
+     data-shopnow-border-color-hover="{{ section.settings.shopnow_btn_border_color_hover }}"
+     data-shopnow-text-color="{{ section.settings.shopnow_btn_text_color }}"
+     data-shopnow-text-color-hover="{{ section.settings.shopnow_btn_text_color_hover }}"
+     data-shopnow-title-photo="{{ section.settings.shopnow_btn_title_photo }}"
+     data-shopnow-title-video="{{ section.settings.shopnow_btn_title_video }}"
+     data-show-btn-loadmore="{{ section.settings.show_btn_loadmore }}"
+     data-show-comment="0"
+     data-view-cart="{{ section.settings.view_cart }}"
+     data-auto-loadmore="{{ section.settings.auto_loadmore }}"
+     data-product-id="{% if product %}{{ product.id }}{% endif %}"
+     style="{% if eiss_section_padding >= 0 %} padding: 0 {{ eiss_section_padding }}px;{% endif %}"
+>
+    <div class="ets-iss-section-heading {% if section.settings.text_direction == 'center' %} heading-center {% endif %}">
+        <div class="eiss-section-heading-title">
+            {% if section.settings.section_title != '' %}
+                <h3 class="ets-iss-setion-title">{{ section.settings.section_title }}</h3>
+            {% endif %}
+            {% if eiss_displayname != '' %}
+                {% if section.settings.text_direction == 'center' %} Follow us: {% endif %}
+                {% if eiss_link_profile != '' %}
+                    <a href="https://www.instagram.com/basicboutiqueza/" title="" target="_blank" class="eiss-link-profile">@Instagram Shop</a>
+                {% else %}
+                    <span class="eiss-link-profile">@Instagram Shop</span>
+                {% endif %}
+            {% endif %}
+
+        </div>
+        {% if eiss_link_profile != '' and section.settings.follow_btn_title != '' and section.settings.text_direction == 'left_right' %}
+            <a href="https://www.instagram.com/basicboutiqueza/" title="" target="_blank"
+               class="eiss-btn-link-profile">{{ section.settings.follow_btn_title }}</a>
+        {% endif %}
+    </div>
+    <div class="ets-iss-photos {% if section.settings.layout_type == 'carousel' %} eiss-slick-slide {% endif %}"></div>
+</div>
+<style type="text/css" media="screen">
+    #shopify-section-{{ section.id }} .eiss-btn-link-profile {
+        background: {{ section.settings.follow_btn_bg_color }} !important;
+        border-color: {{ section.settings.follow_btn_border_color }} !important;
+        color: {{ section.settings.follow_btn_text_color }} !important;
+    }
+
+    #shopify-section-{{ section.id }} .eiss-btn-link-profile:hover,
+    #shopify-section-{{ section.id }} .eiss-btn-link-profile:focus {
+        background: {{ section.settings.follow_btn_bg_color_hover }} !important;
+        border-color: {{ section.settings.follow_btn_border_color_hover }} !important;
+        color: {{ section.settings.follow_btn_text_color_hover }} !important;
+    }
+</style>
+{% endif %}
+{% schema %}
+    {
+    "name": "Instagram",
+    "class": "ets-iss-section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General settings"
+        },
+        {
+            "type": "radio",
+            "id": "enable_section",
+            "options": [
+                { "value": "1", "label": "Yes"},
+                { "value": "0", "label": "No"}
+            ],
+            "default": "0",
+            "label": "Enable"
+        },
+        {
+            "type": "text",
+            "id": "section_title",
+            "label": "Section title",
+            "default": "Instagram"
+        },
+        {
+        "type": "radio",
+        "id": "layout_type",
+        "options": [
+        { "value": "grid", "label": "Grid view"},
+        { "value": "carousel", "label": "Carousel slider"}
+        ],
+        "default": "carousel",
+        "label": "Layout type"
+        },
+        {
+        "type": "radio",
+        "id": "text_direction",
+        "options": [
+        { "value": "left_right", "label": "Left-right"},
+        { "value": "center", "label": "Center"}
+        ],
+        "default": "left_right",
+        "label": "Text direction"
+        },
+        {
+        "type": "select",
+        "id": "photo_effect_filter_init",
+        "label": "Initial photo filter effect",
+        "options": [
+        { "value": "none", "label": "None"},
+        { "value": "greyout", "label": "Grey out"},
+        { "value": "sepia", "label": "Sepia"},
+        { "value": "saturate", "label": "Saturate"},
+        { "value": "contrast", "label": "Contrast"},
+        { "value": "hue_rotate", "label": "HUE-rotate"},
+        { "value": "opacity", "label": "Opacity"},
+        { "value": "invert", "label": "Invert"},
+        { "value": "blur", "label": "Blur"},
+        { "value": "brightness", "label": "Brightness"}
+        ],
+        "default": "none"
+        },
+        {
+        "type": "select",
+        "id": "photo_effect_filter_hover",
+        "label": "Hover photo filter effect",
+        "options": [
+        { "value": "none", "label": "None"},
+        { "value": "greyout", "label": "Grey out"},
+        { "value": "sepia", "label": "Sepia"},
+        { "value": "saturate", "label": "Saturate"},
+        { "value": "contrast", "label": "Contrast"},
+        { "value": "hue_rotate", "label": "HUE-rotate"},
+        { "value": "opacity", "label": "Opacity"},
+        { "value": "invert", "label": "Invert"},
+        { "value": "blur", "label": "Blur"},
+        { "value": "brightness", "label": "Brightness"}
+        ],
+        "default": "none"
+        },
+        {
+        "type": "radio",
+        "id": "view_cart",
+        "options": [
+        { "value": "button", "label": "Yes"},
+        { "value": "alert", "label": "No"}
+        ],
+        "default": "button",
+        "label": "Redirect to shopping cart page when click on 'Add to cart' button"
+        },
+        {
+        "type": "radio",
+        "id": "shopnow_enable",
+        "options": [
+        { "value": "1", "label": "Yes"},
+        { "value": "0", "label": "No"}
+        ],
+        "default": "1",
+        "label": "Display 'Shop now' & 'View photo/video' button:"
+        },
+
+        {
+        "type": "text",
+        "id": "init_displayed",
+        "default": "18",
+        "label": "Number of initial photos displayed (max: 20 photos)"
+        },
+        {
+        "type": "text",
+        "id": "max_displayed",
+        "label": "Maximum number of photos displayed (Leave blank to display all)"
+        },
+        {
+        "type": "radio",
+        "id": "show_btn_loadmore",
+        "options": [
+        { "value": "1", "label": "Yes"},
+        { "value": "0", "label": "No"}
+        ],
+        "default": "1",
+        "label": "Display 'load more' button"
+        },
+        {
+        "type": "radio",
+        "id": "auto_loadmore",
+        "options": [
+        { "value": "1", "label": "Yes"},
+        { "value": "0", "label": "No"}
+        ],
+        "default": "0",
+        "label": "Auto load more when scroll down"
+        },
+
+        {
+        "type":      "checkbox",
+        "id":        "force_slide_on_mobile",
+        "label":     "Force carousel slider on mobile",
+        "default":   true
+        },
+        {
+        "type": "header",
+        "content": "Carousel slider layout settings"
+        },
+        {
+        "type": "text",
+        "id": "carousel_displayed",
+        "default": "18",
+        "label": "Number of photos displayed (max: 20 photos)"
+        },
+        {
+        "type": "radio",
+        "id": "carousel_autoplay",
+        "options": [
+        { "value": "1", "label": "Yes"},
+        { "value": "0", "label": "No"}
+        ],
+        "default": "0",
+        "label": "Auto play carousel slider"
+        },
+        {
+        "type": "text",
+        "id": "carousel_delay",
+        "default": "5000",
+        "label": "Carousel slider speed in millisecond(s)"
+        },
+        {
+        "type": "radio",
+        "id": "carousel_loop",
+        "options": [
+        { "value": "1", "label": "Yes"},
+        { "value": "0", "label": "No"}
+        ],
+        "default": "0",
+        "label": "Infinite loop sliding"
+        },
+        {
+        "type": "header",
+        "content": "Display settings "
+        },
+
+        {
+        "type": "select",
+        "id": "per_row_desktop",
+        "options": [
+        { "value": "1", "label": "1 Photo"},
+        { "value": "2", "label": "2 Photos"},
+        { "value": "3", "label": "3 Photos"},
+        { "value": "4", "label": "4 Photos"},
+        { "value": "6", "label": "6 Photos"},
+        { "value": "12", "label": "12 Photos"}
+        ],
+        "default": "6",
+        "label": "Number of photos per row on desktop"
+        },
+        {
+        "type": "select",
+        "id": "per_row_tablet",
+        "options": [
+        { "value": "1", "label": "1 Photo"},
+        { "value": "2", "label": "2 Photos"},
+        { "value": "3", "label": "3 Photos"},
+        { "value": "4", "label": "4 Photos"},
+        { "value": "6", "label": "6 Photos"},
+        { "value": "12", "label": "12 Photos"}
+        ],
+        "default": "4",
+        "label": "Number of photos per row on tablet"
+        },
+        {
+        "type": "select",
+        "id": "per_row_mobile",
+        "options": [
+        { "value": "1", "label": "1 Photo"},
+        { "value": "2", "label": "2 Photos"},
+        { "value": "3", "label": "3 Photos"},
+        { "value": "4", "label": "4 Photos"},
+        { "value": "6", "label": "6 Photos"},
+        { "value": "12", "label": "12 Photos"}
+        ],
+        "default": "1",
+        "label": "Number of photos per row on mobile"
+        },
+        {
+        "type": "text",
+        "id": "section_padding",
+        "default": "10",
+        "label": "Section padding (px)"
+        },
+        {
+        "type": "text",
+        "id": "photo_spacing",
+        "default": "5",
+        "label": "Photo spacing (px)"
+        },
+
+        {
+        "type": "header",
+        "content": "Follow button settings (Left-right direction)"
+        },
+        {
+        "type": "text",
+        "id": "follow_btn_title",
+        "label": "Following button title",
+        "default": "Follow us on Instagram"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_bg_color",
+        "label": "Following button background color",
+        "default": "#C2002E"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_bg_color_hover",
+        "label": "Following button background color hover",
+        "default": "#910011"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_border_color",
+        "label": "Following button border color",
+        "default": "#C2002E"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_border_color_hover",
+        "label": "Following button border color hover",
+        "default": "#910011"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_text_color",
+        "label": "Following button text color",
+        "default": "#ffffff"
+        },
+        {
+        "type": "color",
+        "id": "follow_btn_text_color_hover",
+        "label": "Following button text color hover",
+        "default": "#ffffff"
+        },
+        {
+        "type": "header",
+        "content": "Shopping cart button settings"
+        },
+        {
+        "type": "text",
+        "id": "shopnow_btn_title",
+        "label": "Button title when have tagged products",
+        "default": "Shop now"
+        },
+        {
+        "type": "text",
+        "id": "shopnow_btn_title_photo",
+        "label": "Button title when no products tagged (photo)",
+        "default": "View photo"
+        },
+        {
+        "type": "text",
+        "id": "shopnow_btn_title_video",
+        "label": "Button title when no products tagged (video)",
+        "default": "View video"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_bg_color",
+        "label": "Button background color",
+        "default": "#FFFFFF"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_bg_color_hover",
+        "label": "Button background color hover",
+        "default": "#FFFFFF"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_border_color",
+        "label": "Button border color",
+        "default": "#FFFFFF"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_border_color_hover",
+        "label": "Button border color hover",
+        "default": "#FFFFFF"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_text_color",
+        "label": "Button text color",
+        "default": "#333333"
+        },
+        {
+        "type": "color",
+        "id": "shopnow_btn_text_color_hover",
+        "label": "Button text color hover",
+        "default": "#333333"
+        }
+        ],
+        "presets": [
+        {
+        "name": "Instagram product",
+        "category": "Social network"
+        }
+    ]
+    }
+{% endschema %}

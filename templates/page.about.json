@@ -1,0 +1,340 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1654079041e113480a": {
+      "type": "image-banner",
+      "blocks": {
+        "165407904172e09299-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "WE ARE CULT CRUSH",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "165407904172e09299-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_f0e1bf38-bd8d-40e5-98e8-20eac706b145.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16540790482303fc4e": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "6db60713-dd88-4689-b413-608094f02257": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anastasia-4_836x_d702395d-4a2b-4cee-9318-bede90d33cf4.jpg",
+            "image_padding": false
+          }
+        },
+        "67e5c815-949f-40d7-9b26-424695d89865": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/279_1600x_f503f6ae-893b-4abd-b0b3-90d26129ded6.jpg",
+            "image_padding": false
+          }
+        },
+        "9bd34cb1-1132-45ee-92a2-a4b3515d54cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1d0999e3-49d6-4467-bf9d-19e427bb0cd3.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "6db60713-dd88-4689-b413-608094f02257",
+        "67e5c815-949f-40d7-9b26-424695d89865",
+        "9bd34cb1-1132-45ee-92a2-a4b3515d54cd"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165408061162e30609": {
+      "type": "rich-text",
+      "blocks": {
+        "16540806117c3dd7ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENT. RETURN. REPEAT.",
+            "heading_size": "h2"
+          }
+        },
+        "16540806117c3dd7ff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cult Crush, you can rent exclusive, designer looks (in inclusive sizing) for events, and then send them back to us when you’re done.   <\/p><p>Welcome to easy, affordable, considered fashion consumption.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16540806117c3dd7ff-0",
+        "16540806117c3dd7ff-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1658846009f00fd1de": {
+      "type": "apps",
+      "blocks": {
+        "2c7222b6-84ef-4529-b2f5-187eb38bf64e": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "2c7222b6-84ef-4529-b2f5-187eb38bf64e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1654079403411cc394": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654079403e14419e7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE BELIEVE IN CONSIDERED CHOICES",
+            "heading_size": "h2"
+          }
+        },
+        "1654079403e14419e7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get your new look delivered, wear it, and then give it back to us in the (v cute) reusable packaging.<\/p><p>Doing things the Cult Crush way means you spend less money on buying endless fast fashion - and more time on considered, sustainable ways to look f*kn great.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1654079403e14419e7-0",
+        "1654079403e14419e7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/31_1600x_7f2ff306-a9ca-499f-8e7d-5a9582ab2139.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 24
+      }
+    },
+    "1654079928499df14d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654079928ca0abc40-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE BELIEVE IN STAYING ON TREND",
+            "heading_size": "h2"
+          }
+        },
+        "1654079928ca0abc40-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose your look from high-end, luxury, on trend pieces, carefully curated from local and international designers.<\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "1654079928ca0abc40-0",
+        "1654079928ca0abc40-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/190_1600x_2d72b31d-7d8a-408f-97f1-b5ea253b1d65.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "16540801756e333587": {
+      "type": "image-with-text",
+      "blocks": {
+        "16540801759af2b54a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE BELIEVE IN BEING INCLUSIVE",
+            "heading_size": "h2"
+          }
+        },
+        "16540801759af2b54a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our style may be exclusive, but our sizing is most definitely inclusive. We love you in these looks, babe, from XS to 2XL.<\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "16540801759af2b54a-0",
+        "16540801759af2b54a-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1654080384c68d2898": {
+      "type": "image-with-text",
+      "blocks": {
+        "16540803838d236b08-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE BELIEVE IN AFFORDABILITY",
+            "heading_size": "h2"
+          }
+        },
+        "16540803838d236b08-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Revamping a wardrobe every season is not sustainable or affordable. Renting when needed beats non-stop spending, every time.<\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "16540803838d236b08-0",
+        "16540803838d236b08-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tibi-b11.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 44
+      }
+    },
+    "16540812627cc0659a": {
+      "type": "image-banner",
+      "blocks": {
+        "16540812629acff1fb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MORE ABOUT CULT CRUSH",
+            "heading_size": "medium"
+          }
+        },
+        "16540812629acff1fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "CHECK OUT WHAT OUR COMMUNITY OF RENTERS HAVE TO SAY OR CONTACT US DIRECTLY FOR MORE INFO",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "16540812629acff1fb-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "CULT CRUSH CREW",
+            "button_link_1": "shopify:\/\/pages\/community",
+            "button_style_secondary_1": false,
+            "button_label_2": "CONTACT US",
+            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16540812629acff1fb-0",
+        "16540812629acff1fb-1",
+        "16540812629acff1fb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/279_1600x_3b1e6ffa-1c94-4801-9179-9bc5d1504aa7.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654079041e113480a",
+    "16540790482303fc4e",
+    "165408061162e30609",
+    "1658846009f00fd1de",
+    "1654079403411cc394",
+    "1654079928499df14d",
+    "16540801756e333587",
+    "1654080384c68d2898",
+    "16540812627cc0659a"
+  ]
+}

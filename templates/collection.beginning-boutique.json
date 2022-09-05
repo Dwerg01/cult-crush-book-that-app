@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "1654772443d98aa91f": {
+      "type": "image-banner",
+      "blocks": {
+        "165477244392e89db5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "165477244392e89db5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165477244392e89db5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165477244392e89db5-0",
+        "165477244392e89db5-1",
+        "165477244392e89db5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7_5269c79e-e8ac-4650-996d-0617e9f8c391.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1654515415a1753e66": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "08c5be78-a1eb-4a44-8d8c-e05927f3ffc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RENT BY DESIGNER<\/p>"
+          }
+        },
+        "165451541554c4f9a9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEGINNING BOUTIQUE",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "08c5be78-a1eb-4a44-8d8c-e05927f3ffc9",
+        "165451541554c4f9a9-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    },
+    "16581472277477366c": {
+      "type": "apps",
+      "blocks": {
+        "b8ef2115-700d-46dc-9b7b-e7d75ee9e6b7": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "b8ef2115-700d-46dc-9b7b-e7d75ee9e6b7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1654257479d426947b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "beginning-boutique",
+        "products_to_show": 30,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "165451641540fb9980": {
+      "type": "rich-text",
+      "blocks": {
+        "76aa01a1-f054-46df-a6ff-65c9c742a117": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DISCOVER MORE<\/p>"
+          }
+        },
+        "1654516415e1a9e9a8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENT BY COLLECTION",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "76aa01a1-f054-46df-a6ff-65c9c742a117",
+        "1654516415e1a9e9a8-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 4
+      }
+    },
+    "1654515593b1191571": {
+      "type": "multicolumn",
+      "blocks": {
+        "1654515593b1484901-0": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/basic",
+            "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-1_1500x.progressive_50290df3-649c-48fb-bfa5-99f3141650e4.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "BASIC",
+            "link": "shopify:\/\/collections\/basic"
+          }
+        },
+        "1654515593b1484901-1": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/curvy",
+            "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+            "title": "",
+            "text": "",
+            "link_label": "CURVY",
+            "link": "shopify:\/\/collections\/curvy"
+          }
+        },
+        "1654515593b1484901-2": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/luxe",
+            "image": "shopify:\/\/shop_images\/128_1600x_1539846a-5409-48fa-bbd7-c80a642ce469.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "LUXE",
+            "link": "shopify:\/\/collections\/luxe"
+          }
+        },
+        "65dcc272-af2d-4c06-b3d2-8b66916fc6df": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/boho",
+            "image": "shopify:\/\/shop_images\/ZINNIA-PRODUCT-IMAGE-1_836x_8008c72b-9d5f-4df9-9603-efb359bb8806.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "BOHO",
+            "link": "shopify:\/\/collections\/boho"
+          }
+        },
+        "13e4dfab-bc13-43d2-8d84-456a9998c6c8": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_link": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654515593b1484901-0",
+        "1654515593b1484901-1",
+        "1654515593b1484901-2",
+        "65dcc272-af2d-4c06-b3d2-8b66916fc6df",
+        "13e4dfab-bc13-43d2-8d84-456a9998c6c8"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "VIEW ALL COLLECTIONS",
+        "button_link": "shopify:\/\/collections\/collections",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "1654772443d98aa91f",
+    "1654515415a1753e66",
+    "16581472277477366c",
+    "1654257479d426947b",
+    "165451641540fb9980",
+    "1654515593b1191571"
+  ]
+}

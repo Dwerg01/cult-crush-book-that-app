@@ -1,0 +1,543 @@
+{
+  "sections": {
+    "1654767629738819a9": {
+      "type": "image-banner",
+      "blocks": {
+        "1654767629c04091c3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1654767629c04091c3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1654767629c04091c3-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1654767629c04091c3-0",
+        "1654767629c04091c3-1",
+        "1654767629c04091c3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Add_a_headig_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165814172943568a81": {
+      "type": "apps",
+      "blocks": {
+        "2e33d334-d95d-45bd-a5cf-a6cdbaf5c3f0": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "2e33d334-d95d-45bd-a5cf-a6cdbaf5c3f0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1652698755e5d6d0f9": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "fcd6e01d-e666-4f34-837b-d5ef08e97b29": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RENT BY<\/p>"
+          }
+        },
+        "16526987556f86a2cf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OCCASION",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "fcd6e01d-e666-4f34-837b-d5ef08e97b29",
+        "16526987556f86a2cf-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "165269493091b44439": {
+      "type": "image-with-text",
+      "blocks": {
+        "165269493025031793-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NIGHT OUT",
+            "heading_size": "h1"
+          }
+        },
+        "165269493025031793-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heading out with your girls? <\/p><p>These looks will keep all eyes on you, whether you’re sipping drinks on a rooftop or doing shots at the bar ;)<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165269493025031793-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/night-out"
+          }
+        }
+      },
+      "block_order": [
+        "165269493025031793-0",
+        "165269493025031793-1",
+        "165269493025031793-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_576e34f0-8691-460a-bf7d-37af08c0233d.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "165269825635da1d00": {
+      "type": "image-with-text",
+      "blocks": {
+        "16526982562cfbf720-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLACK TIE",
+            "heading_size": "h1"
+          }
+        },
+        "16526982562cfbf720-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gotta look smart and sophisticated? <\/p><p>We’ve got you covered with looks for when the invite says, “Dress code: Formal”.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16526982562cfbf720-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/black-tie"
+          }
+        }
+      },
+      "block_order": [
+        "16526982562cfbf720-0",
+        "16526982562cfbf720-1",
+        "16526982562cfbf720-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_aafba20e-7389-4b92-9033-09daf295df66.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654252953fb154469": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542529539835b620-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DAYTIME",
+            "heading_size": "h1"
+          }
+        },
+        "16542529539835b620-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your relaxed, daytime look with a few surprising, casual-chic pieces that will stand out at brunch or the baby shower.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542529539835b620-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/daytime"
+          }
+        }
+      },
+      "block_order": [
+        "16542529539835b620-0",
+        "16542529539835b620-1",
+        "16542529539835b620-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_b869f992-a6c2-4424-9ae9-d50d2c6b672a.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654253497f173b73e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542534973eba5832-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WEDDING GUEST",
+            "heading_size": "h1"
+          }
+        },
+        "16542534973eba5832-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's always wedding season, babes.<\/p><p> These looks will make sure you’ve got a dress to wear to any wedding, 52 Saturdays a year. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542534973eba5832-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/wedding-guest"
+          }
+        }
+      },
+      "block_order": [
+        "16542534973eba5832-0",
+        "16542534973eba5832-1",
+        "16542534973eba5832-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4_b233c394-7727-49f4-9e04-5f7185b027a2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "16546045824622c5ce": {
+      "type": "image-with-text",
+      "blocks": {
+        "16546045820da754da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MATRIC DANCE",
+            "heading_size": "h1"
+          }
+        },
+        "8affc275-e3e6-4135-80a9-256a6c425a2d": {
+          "type": "caption",
+          "settings": {
+            "caption": "These matric dance dresses are the perfect choice for your last sendoff.       Leave the rest of your class remembering you until your 10-year reunion. ",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "16546045820da754da-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "16546045820da754da-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/matric-dance"
+          }
+        }
+      },
+      "block_order": [
+        "16546045820da754da-0",
+        "8affc275-e3e6-4135-80a9-256a6c425a2d",
+        "16546045820da754da-1",
+        "16546045820da754da-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5_fcd4ca78-82f9-42ea-9a4b-3e5443726a8f.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16546047382de1e315": {
+      "type": "image-with-text",
+      "blocks": {
+        "165460473849d2f6ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRIDESMAID",
+            "heading_size": "h1"
+          }
+        },
+        "165460473849d2f6ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’ve been given the go ahead to choose your own dress and don’t know where to start?<\/p><p>Browse our selection of stylish, high-end Bridesmaid dresses you’d actually want to wear again. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "165460473849d2f6ec-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/bridesmaid"
+          }
+        }
+      },
+      "block_order": [
+        "165460473849d2f6ec-0",
+        "165460473849d2f6ec-1",
+        "165460473849d2f6ec-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6_67704288-3f1a-4e37-bbac-4d84d95e91a6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654603414c39a9ac4": {
+      "type": "rich-text",
+      "blocks": {
+        "1654603414f85a2ef0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DISCOVER MORE<\/p>"
+          }
+        },
+        "1654603414f85a2ef0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BROWSE RENTALS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1654603414f85a2ef0-1",
+        "1654603414f85a2ef0-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "16546033971171018d": {
+      "type": "multicolumn",
+      "blocks": {
+        "165460339754eb9040-0": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/browse-all-rentals",
+            "image": "shopify:\/\/shop_images\/128_1600x_1539846a-5409-48fa-bbd7-c80a642ce469.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "BROWSE ALL",
+            "link": "shopify:\/\/collections\/browse-all-rentals"
+          }
+        },
+        "165460339754eb9040-1": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/all-brands",
+            "image": "shopify:\/\/shop_images\/anastasia-4_836x_d702395d-4a2b-4cee-9318-bede90d33cf4.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "RENT BY DESIGNER",
+            "link": "shopify:\/\/collections\/all-brands"
+          }
+        },
+        "165460339754eb9040-2": {
+          "type": "column",
+          "settings": {
+            "image_link": "shopify:\/\/collections\/collections",
+            "image": "shopify:\/\/shop_images\/277_1600x_157fbd5d-e24b-408d-8d24-6cab10b30e24.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "RENT BY COLLECTION",
+            "link": "shopify:\/\/collections\/occasions"
+          }
+        }
+      },
+      "block_order": [
+        "165460339754eb9040-0",
+        "165460339754eb9040-1",
+        "165460339754eb9040-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1652698573f61b9264": {
+      "type": "rich-text",
+      "blocks": {
+        "1652698573e72f9595-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW  IT  WORKS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1652698573e72f9595-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 16
+      }
+    },
+    "165763487020600dbf": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-21_at_15.51.25.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165763496128d2e34d": {
+      "type": "rich-text",
+      "blocks": {
+        "1657634961e78b0cf6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE INFO",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657634961e78b0cf6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "1654767629738819a9",
+    "165814172943568a81",
+    "1652698755e5d6d0f9",
+    "165269493091b44439",
+    "165269825635da1d00",
+    "1654252953fb154469",
+    "1654253497f173b73e",
+    "16546045824622c5ce",
+    "16546047382de1e315",
+    "1654603414c39a9ac4",
+    "16546033971171018d",
+    "1652698573f61b9264",
+    "165763487020600dbf",
+    "165763496128d2e34d"
+  ]
+}

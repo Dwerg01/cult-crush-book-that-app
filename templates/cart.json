@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "show_cart_note": true
+      }
+    },
+    "1656410269e93bfd82": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165641026940b753cd-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "RENT A SECOND DRESS FOR LESS 20%",
+            "icon": "heart",
+            "row_content": "<p>Want to make sure you have the right dress for the occasion? Before you check out use our BackUp Dress service which allows you to add a second option to try on for 20% less of the cheaper dress. Simply use the code BackUpDress. So why not  <a href=\"\/collections\/browse-all-rentals\" target=\"_blank\" title=\"Browse All Rentals\">Browse All Rentals<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "165641026940b753cd-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DOUBLE CHECK YOUR SIZE IS CORRECT",
+            "icon": "heart",
+            "row_content": "<p>Use our <a href=\"\/pages\/size-guide\" target=\"_blank\" title=\"Size Guide\">Size Guide <\/a>to make sure you have ordered the correct size accordingly to your body mesurements or alternatively, you can use our size recomender that uses information you provide to determine which size is best for you.<\/p>",
+            "page": ""
+          }
+        },
+        "165641026940b753cd-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "UNDERSTAND HOW IT WORKS",
+            "icon": "heart",
+            "row_content": "<p>Familiarise yourself with how the renting process works: <a href=\"\/pages\/how-it-works\" target=\"_blank\" title=\"How it Works\">How It Works<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "165641026940b753cd-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "READ TERMS & CONDITIONS OF SERVICE",
+            "icon": "heart",
+            "row_content": "<p>Please ensure you have read and understood the terms of service. By renting a dress using this website, you agree to the following terms and conditions of our services: <a href=\"\/pages\/ts-and-cs\" target=\"_blank\" title=\"Terms and Conditions\">Terms and Conditions<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165641026940b753cd-0",
+        "165641026940b753cd-2",
+        "165641026940b753cd-3",
+        "165641026940b753cd-1"
+      ],
+      "settings": {
+        "caption": "ENSURE YOU HAVE EVERYTHING YOU NEED",
+        "heading": "BEFORE YOU CHECK OUT",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "1656410269e93bfd82"
+  ]
+}

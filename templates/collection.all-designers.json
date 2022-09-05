@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "1654772917a85ca556": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Add_a_headig_6.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1658147468c098c3b2": {
+      "type": "apps",
+      "blocks": {
+        "f1b815b3-5501-47de-ace4-914facec95ab": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 25,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "f1b815b3-5501-47de-ace4-914facec95ab"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1654521257e69a78d6": {
+      "type": "image-with-text",
+      "blocks": {
+        "1654521257e58f5ec8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALAMOUR THE LABEL",
+            "heading_size": "h1"
+          }
+        },
+        "1654521257e58f5ec8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stunning and undeniably sexy, this Austrailian design house brings modern designer fashion together with timeless elegance. <\/p><p><\/p><p>Created with the belief that sensuality is always in style, every single piece has been created to compliment and celebrate feminine confidence and complexity.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1654521257e58f5ec8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/alamour-the-label"
+          }
+        }
+      },
+      "block_order": [
+        "1654521257e58f5ec8-0",
+        "1654521257e58f5ec8-1",
+        "1654521257e58f5ec8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/99_1600x_577fba7f-8312-4991-9519-05a2d5e8f3a2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "165269825635da1d00": {
+      "type": "image-with-text",
+      "blocks": {
+        "16526982562cfbf720-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RAT & BOA",
+            "heading_size": "h1"
+          }
+        },
+        "16526982562cfbf720-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the bold and the spirited; clothing designed by women for women. <\/p><p>This Uk based design house encourages you to express yourself, from the inside out in their stylish collections.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16526982562cfbf720-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/rat-boa"
+          }
+        }
+      },
+      "block_order": [
+        "16526982562cfbf720-0",
+        "16526982562cfbf720-1",
+        "16526982562cfbf720-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/anastasia-2_836x_8f4e1769-2e2d-41c8-942a-771b546bcb65.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "16552925478b50af0a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1655292547c6d3e997-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOUSE OF CB",
+            "heading_size": "h1"
+          }
+        },
+        "1655292547c6d3e997-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1655292547c6d3e997-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/house-of-cb"
+          }
+        }
+      },
+      "block_order": [
+        "1655292547c6d3e997-0",
+        "1655292547c6d3e997-1",
+        "1655292547c6d3e997-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/31_1600x_7f2ff306-a9ca-499f-8e7d-5a9582ab2139.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654252953fb154469": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542529539835b620-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEGINNING BOUTIQUE",
+            "heading_size": "h1"
+          }
+        },
+        "16542529539835b620-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed by Aussies for babes worldwide.<\/p><p>Beginning Boutique is the go-to brand for the latest trends in women's fashion.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542529539835b620-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/beginning-boutique"
+          }
+        }
+      },
+      "block_order": [
+        "16542529539835b620-0",
+        "16542529539835b620-1",
+        "16542529539835b620-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FloraFloralMaxiDress-1_1500x.progressive_baa10cc1-c397-4605-bb0b-ecc845f92400.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1654253497f173b73e": {
+      "type": "image-with-text",
+      "blocks": {
+        "16542534973eba5832-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRETTY LITTLE THING",
+            "heading_size": "h1"
+          }
+        },
+        "16542534973eba5832-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This UK based retailer gives you the latest and most popular styles in women's fashion. <\/p><p>Hit refresh on your wardrobe and discover thousands of this season's must-have looks and trends.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16542534973eba5832-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/pretty-little-thing"
+          }
+        }
+      },
+      "block_order": [
+        "16542534973eba5832-0",
+        "16542534973eba5832-1",
+        "16542534973eba5832-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "165269493091b44439": {
+      "type": "image-with-text",
+      "blocks": {
+        "165269493025031793-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ASOS",
+            "heading_size": "h1"
+          }
+        },
+        "165269493025031793-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This British retailer believes in a world where you have total freedom to be you, without judgment. <\/p><p>To experiment. To express yourself. To be brave and embrace life as the extraordinary adventure it is. <\/p><p>ASOS exists to give you the confidence to be whoever you want to be.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165269493025031793-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW COLLECTION",
+            "button_link": "shopify:\/\/collections\/asos"
+          }
+        }
+      },
+      "block_order": [
+        "165269493025031793-0",
+        "165269493025031793-1",
+        "165269493025031793-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/201486120-4.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1652698573f61b9264": {
+      "type": "rich-text",
+      "blocks": {
+        "1652698573e72f9595-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOW  IT  WORKS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1652698573e72f9595-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 12
+      }
+    },
+    "16576351599ae42d93": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-21_at_15.51.25.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165763522081e701c1": {
+      "type": "rich-text",
+      "blocks": {
+        "1657635219f145fd11-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE INFO",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657635219f145fd11-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1654772917a85ca556",
+    "1658147468c098c3b2",
+    "1654521257e69a78d6",
+    "165269825635da1d00",
+    "16552925478b50af0a",
+    "1654252953fb154469",
+    "1654253497f173b73e",
+    "165269493091b44439",
+    "1652698573f61b9264",
+    "16576351599ae42d93",
+    "165763522081e701c1"
+  ]
+}

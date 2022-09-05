@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "1658223997748fe86d": {
+      "type": "apps",
+      "blocks": {
+        "22c0e0b4-caf0-4d10-921f-b2fbb1923e06": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "separator": "\/",
+            "home_link": "shopify:\/\/collections\/frontpage",
+            "bb_show_hide": true,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 25,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "22c0e0b4-caf0-4d10-921f-b2fbb1923e06"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16552971286e479b17": {
+      "type": "rich-text",
+      "blocks": {
+        "165529712848d8cd27-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "RENT BY SIZE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "165529712848d8cd27-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 8
+      }
+    },
+    "1658221232707fa397": {
+      "type": "collection-list",
+      "blocks": {
+        "16582212324c24b487-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "small"
+          }
+        },
+        "16582212324c24b487-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medium"
+          }
+        },
+        "16582212324c24b487-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "large"
+          }
+        },
+        "c6618fcb-9ecc-42a7-8961-a1170fc2bf55": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "extra-large"
+          }
+        },
+        "636bcc2b-90c2-48a0-b3b1-360f5d882df1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "2-x-extra-large-and-plus"
+          }
+        }
+      },
+      "block_order": [
+        "16582212324c24b487-0",
+        "16582212324c24b487-1",
+        "16582212324c24b487-2",
+        "c6618fcb-9ecc-42a7-8961-a1170fc2bf55",
+        "636bcc2b-90c2-48a0-b3b1-360f5d882df1"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "adapt",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "165814818573ca2df6": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1655299041b0c2627a": {
+      "type": "rich-text",
+      "blocks": {
+        "16552990415cd83cbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FIND YOUR BEST FIT<\/p>"
+          }
+        },
+        "16552990415cd83cbd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VIEW ALL SIZING INFO",
+            "heading_size": "h1"
+          }
+        },
+        "737be376-e4b8-4ed9-9ed2-ed534a9ec2d1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SIZE GUIDE",
+            "button_link": "shopify:\/\/pages\/size-guide",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16552990415cd83cbd-1",
+        "16552990415cd83cbd-0",
+        "737be376-e4b8-4ed9-9ed2-ed534a9ec2d1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "1658223997748fe86d",
+    "16552971286e479b17",
+    "1658221232707fa397",
+    "165814818573ca2df6",
+    "main",
+    "1655299041b0c2627a"
+  ]
+}

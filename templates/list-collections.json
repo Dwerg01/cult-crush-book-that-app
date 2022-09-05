@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "",
+        "sort": "products_high",
+        "image_ratio": "portrait"
+      }
+    },
+    "1654086213947bb209": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "16540862139cba5a2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "16540862139cba5a2a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "16540862139cba5a2a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16540862139cba5a2a-0",
+        "16540862139cba5a2a-1",
+        "16540862139cba5a2a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1654086213947bb209"
+  ]
+}

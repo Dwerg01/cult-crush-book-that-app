@@ -1,0 +1,232 @@
+{
+  "sections": {
+    "16608280640a816fff": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1660828064e3d077ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TERMS & CONDITIONS",
+            "heading_size": "h1"
+          }
+        },
+        "593e532c-6903-43aa-a109-dadec81c5d1c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please see our Terms and Conditions below. Please feel free to contact us if you have any questions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660828064e3d077ef-0",
+        "593e532c-6903-43aa-a109-dadec81c5d1c"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16608282507600a0ad": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1660828250d172edb6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PLEASE NOTE",
+            "heading_size": "h2"
+          }
+        },
+        "1660828250d172edb6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The below constitute the Terms and Conditions applicable to the Customer upon hiring or purchasing any Clothing or Sale Item through Cult Crush (Pty) Ltd and through its Website.<\/p><p><\/p><p>By clicking on the necessary tick box situated on the Check Out Page which links to these Terms and Conditions, replying via email or hiring any Clothing, or purchasing any Sale Item on our website, Facebook page, TikTok account, or Instagram page, the Customer will be bound by these Terms and Conditions and Cult Crush is entitled to rely on the fact that the Customer agrees to Hire Clothing from Cult Crush or purchase the Sale Items subject to the Terms and Conditions as set out herein.<\/p><p>In some cases, there may be certain clothing items that contain additional Terms and Conditions as well as those described below. Those terms will be displayed when viewing the item on our Website as well as on Cult Crush’s check-out pages. The<br\/>Customer will also be asked to read and accept the additional Terms and<br\/>Conditions before proceeding to<br\/>check-out.<\/p>"
+          }
+        },
+        "1660828250d172edb6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1660828250d172edb6-0",
+        "1660828250d172edb6-1",
+        "1660828250d172edb6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16608281324415e5d8": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1660828132477cdd05-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "540f3da3-fc2b-44bb-a58b-6b1abd68adf2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1660828132477cdd05-0",
+        "540f3da3-fc2b-44bb-a58b-6b1abd68adf2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16608282379890d10f": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16608282378fcae816-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16608282378fcae816-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16608282378fcae816-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16608282378fcae816-0",
+        "16608282378fcae816-1",
+        "16608282378fcae816-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16608282221f3f9b89": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16608282220ba07cc3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16608282220ba07cc3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16608282220ba07cc3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16608282220ba07cc3-0",
+        "16608282220ba07cc3-1",
+        "16608282220ba07cc3-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16554652843571473b": {
+      "type": "rich-text",
+      "blocks": {
+        "16554652846ae25122-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MORE INFO",
+            "heading_size": "h2"
+          }
+        },
+        "ae2d5af3-fb21-45ee-b822-e95e34ff9af0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For more info on the terms and conditions of our services please email us directly  at hello@cultcrush.co.za or fill out the form below<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16554652846ae25122-0",
+        "ae2d5af3-fb21-45ee-b822-e95e34ff9af0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 0
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16608280640a816fff",
+    "16608282507600a0ad",
+    "16608281324415e5d8",
+    "16608282379890d10f",
+    "16608282221f3f9b89",
+    "main",
+    "16554652843571473b",
+    "form"
+  ]
+}
