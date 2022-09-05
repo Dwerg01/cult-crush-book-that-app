@@ -55,6 +55,11 @@
           "settings": {
           }
         },
+        "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -62,6 +67,7 @@
         },
         "b0449021-0f0f-4172-967c-04b2e994ed8b": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "SIZE AVAILABLE",
             "icon": "ruler",
@@ -151,11 +157,6 @@
             "share_label": "Share"
           }
         },
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "bdff7840-2d1b-4325-9262-88a077d25607": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -172,6 +173,7 @@
         "variant_picker",
         "title",
         "457aaf87-9e7b-41c5-b95e-181178ba9dbe",
+        "64f0c0c1-7baa-48f9-9294-36fef877a15e",
         "price",
         "b0449021-0f0f-4172-967c-04b2e994ed8b",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
@@ -185,7 +187,6 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e",
         "bdff7840-2d1b-4325-9262-88a077d25607"
       ],
       "settings": {
