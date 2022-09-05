@@ -57,6 +57,7 @@
         },
         "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
