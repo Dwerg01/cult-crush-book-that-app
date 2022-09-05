@@ -50,6 +50,21 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "84db2b0e-a15b-454c-99fb-ea594f733a56": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "b0449021-0f0f-4172-967c-04b2e994ed8b": {
           "type": "collapsible_tab",
           "settings": {
@@ -57,11 +72,6 @@
             "icon": "ruler",
             "content": "<p><strong>SMALL<\/strong><\/p>",
             "page": ""
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59": {
@@ -76,27 +86,10 @@
           "settings": {
           }
         },
-        "18c0ee04-729d-4bea-aa0e-a288da15baad": {
-          "type": "shopify:\/\/apps\/izyrent-rentals-bookings\/blocks\/productCalendar\/cda4a37a-6d4d-4f3d-b8e5-c19d5c367c6a",
-          "disabled": true,
-          "settings": {
-            "product": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
-          }
-        },
-        "84db2b0e-a15b-454c-99fb-ea594f733a56": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
           }
         },
         "c997c9cf-29ab-4947-aa1c-5e4565170753": {
@@ -198,13 +191,12 @@
         "vendor",
         "variant_picker",
         "title",
-        "b0449021-0f0f-4172-967c-04b2e994ed8b",
         "price",
+        "84db2b0e-a15b-454c-99fb-ea594f733a56",
+        "b0449021-0f0f-4172-967c-04b2e994ed8b",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
         "quantity_selector",
-        "18c0ee04-729d-4bea-aa0e-a288da15baad",
         "buy_buttons",
-        "84db2b0e-a15b-454c-99fb-ea594f733a56",
         "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "description",
         "collapsible-row-0",
@@ -279,18 +271,6 @@
     },
     "165460806471747f0a": {
       "type": "apps",
-      "blocks": {
-        "6e0475a7-c4c3-490c-bcb8-b0c50218ac52": {
-          "type": "shopify:\/\/apps\/izyrent-rentals-bookings\/blocks\/globalCalendar\/cda4a37a-6d4d-4f3d-b8e5-c19d5c367c6a",
-          "settings": {
-            "range": true,
-            "collection": "browse-all-rentals"
-          }
-        }
-      },
-      "block_order": [
-        "6e0475a7-c4c3-490c-bcb8-b0c50218ac52"
-      ],
       "settings": {
         "include_margins": true
       }
