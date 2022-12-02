@@ -2844,18 +2844,19 @@ div#gf-products {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 1rem;
 }
 
 .booking-form input, .bta-time {
   display: block;
   height: 40px;
-  width: 60%;
+  width: 100%;
   padding-left: 5px;
   outline: 1px solid black;
   margin: 1rem auto;
   text-transform: uppercase;
+  text-align:center;
 }
 
 .booking-form input.datepicker {
