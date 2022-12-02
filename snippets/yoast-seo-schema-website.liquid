@@ -2,12 +2,21 @@
 	This file has been added by the Yoast SEO for Shopify app.
 	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
 {%- endcomment -%}
-
+{%- liquid
+	assign settings_data = shop.metafields.yoast_seo.settings.value | default: shop.metafields.yoast_seo.settings
+	assign websiteName = shop.name
+	if settings_data.schema.siteRepresentation.websiteName != null and settings_data.schema.siteRepresentation.websiteName != ""
+		assign websiteName = settings_data.schema.siteRepresentation.websiteName
+	endif
+-%}
 {
 	"@type": "WebSite",
 	"@id": "{{ shop.url }}/#/schema/website/1",
 	"url": "{{ shop.url }}",
-	"name": {{ shop.name | json }},
+	"name": {{ websiteName | json }},
+	{%- if settings_data.schema.siteRepresentation.alternateWebsiteName != null and settings_data.schema.siteRepresentation.alternateWebsiteName != "" %}
+	"alternateName": {{ settings_data.schema.siteRepresentation.alternateWebsiteName | json }},
+	{%- endif -%}
 	{%- if routes.search_url %}
 	"potentialAction": {
 		"@type": "SearchAction",

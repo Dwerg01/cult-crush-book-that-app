@@ -139,7 +139,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-2_1500x.progressive_2031ec18-b09a-46ed-9973-a9962833ea53.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",

@@ -16,20 +16,9 @@
 			endif
 
 		when "description"
-			case yoast_seo_page_type
-				when 'page'
-					assign content = page.metafields.global.description_tag
-				when 'article'
-					assign content = article.metafields.global.description_tag
-				when 'product'
-					assign content = product.metafields.global.description_tag
-				when 'collection'
-					assign content = collection.metafields.global.description_tag
-				when 'blog'
-					assign content = blog.metafields.global.description_tag
-				when 'index'
-					assign content = page_description
-			endcase
+			if page_description
+				assign content = page_description
+			endif
 
 		when "canonical_url"
 			assign content = canonical_url

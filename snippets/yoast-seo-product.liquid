@@ -31,4 +31,9 @@
 	{%- if sku != null and sku != "" %}
 <meta property="product:retailer_item_id" content="{{- sku | replace: '"', '&#34;' -}}" />
 	{%- endif -%}
+
+	{%- if current_variant.compare_at_price != null and current_variant.price != current_variant.compare_at_price %}
+<meta property="og:price:standard_amount" content="{{- current_variant.compare_at_price | divided_by: 100.00 -}}" />
+	{%- endif -%}
+
 {%- endif -%}

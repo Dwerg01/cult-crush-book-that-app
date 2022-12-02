@@ -17,6 +17,9 @@
 	"@id": "{{ shop.url }}/#/schema/organization/1",
 	"url": "{{ shop.url }}",
 	"name": {{ settings_data.schema.siteRepresentation.organizationName | json }},
+	{%- if settings_data.schema.siteRepresentation.alternateOrganizationName != null and settings_data.schema.siteRepresentation.alternateOrganizationName != "" %}
+	"alternateName": {{ settings_data.schema.siteRepresentation.alternateOrganizationName | json }},
+	{%- endif -%}
 {%- if logo_object != null and logo_object != empty %}
 	"logo": {
 		"@id": "{{ shop.url }}/#/schema/ImageObject/{{ logo_object.id }}"

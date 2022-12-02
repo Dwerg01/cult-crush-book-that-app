@@ -17,7 +17,8 @@
             "bb_top_padding": 35,
             "bb_margin": 0,
             "bb_align": "left",
-            "bb_color": "#C0C0C0"
+            "bb_color": "#c0c0c0",
+            "truncator": 20
           }
         }
       },
@@ -50,6 +51,11 @@
             "text_style": "subtitle"
           }
         },
+        "94ce46dc-c704-428f-87dd-699d0b306aa7": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -58,11 +64,12 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -83,7 +90,13 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": true
+          }
+        },
+        "7fd20d61-61fc-439a-8977-cee3b28d1ee6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{ 'fader-icons.css' | asset_url | stylesheet_tag }}\n    <div class=\"product-values\">\n      <div class=\"grid\">\n      \n        <div class=\"grid__item small--one-third medium-up--one-fifth \">\n          <div class=\"product-value--content text-center\">\n            <div class=\"default\">\n              <img src=\"{{ 'icon-dry-clean.webp' | asset_url }}\" alt=\"\" style=\"width: 100%\" loading=\"lazy\"\/>\n              <p><\/p>\n            <\/div>\n            <div class=\"hover\"><p>DRY CLEANING INCLUDED<\/p><\/div>\n          <\/div>\n        <\/div>\n      \n        <div class=\"grid__item small--one-third medium-up--one-fifth \">\n          <div class=\"product-value--content text-center\">\n            <div class=\"default\">\n              <img src=\"{{ 'icon-try-on.webp' | asset_url }}\" alt=\"Try any dress at reduced cost for a day *valid Mondays\"  style=\"width: 100%\" loading=\"lazy\"\/>\n              <p><\/p>\n            <\/div>\n            <div class=\"hover\"><p>try on service<\/p><\/div>\n          <\/div>\n        <\/div>\n      \n        <div class=\"grid__item small--one-third medium-up--one-fifth \">\n          <div class=\"product-value--content text-center\">\n            <div class=\"default\">\n              <img src=\"{{ 'icon-backup-dress.webp' | asset_url }}\" alt=\"BACKUP DRESS OPTION\"  style=\"width: 100%\" loading=\"lazy\"\/>\n              <p><\/p>\n            <\/div>\n            <div class=\"hover\"><p>BACKUP DRESS OPTION<\/p><\/div>\n          <\/div>\n        <\/div>\n      \n        <div class=\"grid__item small--one-third medium-up--one-fifth \">\n          <div class=\"product-value--content text-center\">\n            <div class=\"default\">\n              <img src=\"{{ 'icon-return-giftcard.webp' | asset_url }}\" alt=\"RETURN IF IT DOESN'T FIT\"  style=\"width: 100%\" loading=\"lazy\"\/>\n              <p><\/p>\n            <\/div>\n            <div class=\"hover\"><p>RETURN for giftcard IF IT DOESN'T FIT<\/p><\/div>\n          <\/div>\n        <\/div>\n      \n        <div class=\"grid__item small--one-third medium-up--one-fifth \">\n          <div class=\"product-value--content text-center\">\n            <div class=\"default\">\n              <img src=\"{{ 'icon-easy-pay.webp' | asset_url }}\" alt=\"EASY & SAFE PAYMENT\"  style=\"width: 100%\" loading=\"lazy\"\/>\n              <p><\/p>\n            <\/div>\n            <div class=\"hover\"><p>EASY & SAFE PAYMENT<\/p><\/div>\n          <\/div>\n        <\/div>\n      \n      <\/div>\n    <\/div>\n\n\n\n\n<\/div>"
           }
         },
         "description": {
@@ -96,7 +109,7 @@
           "settings": {
             "heading": "Fabric",
             "icon": "shirt",
-            "content": "<p>Made from stretch satin. Fully lined.<\/p><p>Satin (97% Polyester, 3% Elastane) Stretch Woven (95% Polyester, 5% Elastane) Stretch Satin (95% Polyester, 5% Elastane).<\/p><p>Dress Length: Approx 130cm.<\/p>",
+            "content": "<p>{{ product.metafields.custom.material | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -136,15 +149,19 @@
             "page": ""
           }
         },
+        "68696422-aeb5-4148-a255-e038f6e193b0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Model image",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e": {
-          "type": "rating",
-          "settings": {
           }
         },
         "bdff7840-2d1b-4325-9262-88a077d25607": {
@@ -162,20 +179,22 @@
         "vendor",
         "title",
         "caption",
+        "94ce46dc-c704-428f-87dd-699d0b306aa7",
         "price",
         "variant_picker",
         "quantity_selector",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
         "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "buy_buttons",
+        "7fd20d61-61fc-439a-8977-cee3b28d1ee6",
         "description",
         "collapsible-row-0",
         "7ea05bc8-15b5-4242-b439-737ca59b348f",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "68696422-aeb5-4148-a255-e038f6e193b0",
         "share",
-        "64f0c0c1-7baa-48f9-9294-36fef877a15e",
         "bdff7840-2d1b-4325-9262-88a077d25607"
       ],
       "settings": {
@@ -213,6 +232,21 @@
       "type": "apps",
       "settings": {
         "include_margins": true
+      }
+    },
+    "166971838565e40ea5": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "695557ce-748f-4eca-a1c5-a93484502dee": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"bta-search-widget-container\" data-mode=\"inline\" data-id=\"77108\" >\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16546077838c9ec54c": {
@@ -300,6 +334,8 @@
     "main",
     "16546096109b1afe88",
     "165460806471747f0a",
+    "166971838565e40ea5",
+    "695557ce-748f-4eca-a1c5-a93484502dee",
     "16546077838c9ec54c",
     "16546076518aa489ea",
     "16546079384ec65b52",

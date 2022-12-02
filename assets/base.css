@@ -1380,9 +1380,10 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button--full-width {
-  display: flex;
+  margin: auto;
   width: 100%;
 }
+
 
 .button.loading {
   color: transparent;
@@ -2793,16 +2794,13 @@ details-disclosure > details {
 /* Newly installed font   */
 
 @font-face {
-font-family: "BodoniBT-Roman";
-src: url("BodoniBT-Roman.woff2") format("woff2"),
-      url("BodoniBT-Roman.woff") format("woff2"),
-      url("Lato-Light.woff2") format("woff2"),
-      url("belmonth.woff") format("woff");
+  font-family: "Bodoni-BT-Roman";
+  src: url("Bodoni-BT-Roman.woff2") format("woff2");
 }
 
 
-.h1, h2, h3, h4 {
-    font-family: "BodoniBT-Roman"!important;
+.h1, h1, h2, h3, h4 {
+    font-family: "Bodoni-BT-Roman"!important;
 }
 
 
@@ -2839,3 +2837,54 @@ div#gf-products {
  }
 
 /* endGlobo */
+
+/* Book that app widget */
+
+.booking-form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.booking-form input, .bta-time {
+  display: block;
+  height: 40px;
+  width: 60%;
+  padding-left: 5px;
+  outline: 1px solid black;
+  margin: 1rem auto;
+  text-transform: uppercase;
+}
+
+.booking-form input.datepicker {
+  background-image: url(//cdn.shopify.com/s/files/1/0031/0882/t/34/assets/calendar.png);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.ui-datepicker-inline {
+
+  outline: 3px solid #DABFAC;
+}
+
+.ui-datepicker-header {
+  background: #DABFAC !important;
+}
+
+.ui-state-active {
+  background: #dabfac !important;
+  border: 1px solid black !important;
+}
+
+.jdgm-widget.jdgm--done-setup {
+    text-align: center !important;
+}
+
+.spurit-ros__wrapper {
+  display: none !important;
+  margin-bottom: 2rem;
+}
+
+

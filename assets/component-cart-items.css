@@ -111,6 +111,7 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
 }
 
+
 .cart-item cart-remove-button {
   display: flex;
   margin-left: 1rem;
@@ -203,6 +204,11 @@ cart-remove-button .icon-remove {
 .product-option * {
   display: inline;
   margin: 0;
+}
+
+p.product-option {
+  display: none !important;
+  color: red;
 }
 
 .cart-items thead th {

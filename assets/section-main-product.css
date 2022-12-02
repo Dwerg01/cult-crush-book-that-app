@@ -159,7 +159,10 @@
 
 variant-radios,
 variant-selects {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .product-form__input--dropdown {
@@ -214,8 +217,8 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  background-color: rgb(var(--color-foreground));
-  color: rgb(var(--color-background));
+  background-color: rgb(var(--color-base-background-2));
+  color: rgb(var(--color-foreground));
 }
 
 @media screen and (forced-colors: active) {
@@ -286,10 +289,9 @@ fieldset.product-form__input .form__label {
 }
 
 /* Product info */
-/* nardu text-align added */
+
 .product__info-container > * + * {
   margin: 1.5rem 0;
-  text-align: center;
 }
 
 .product__info-container .product-form,
@@ -299,6 +301,7 @@ fieldset.product-form__input .form__label {
 
 .product__text {
   margin-bottom: 0;
+  text-align: center;
 }
 
 a.product__text {
@@ -314,6 +317,8 @@ a.product__text {
 .product__title {
   word-break: break-word;
   margin-bottom: 1.5rem;
+  text-align: center;
+  
 }
 
 .product__title + .product__text.caption-with-letter-spacing {
@@ -434,6 +439,7 @@ a.product__text {
 
 .product-form__buttons {
   max-width: 44rem;
+  margin: auto !important;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1160,3 +1166,17 @@ a.product__text {
   display: block;
   padding-bottom: 100%;
 }
+
+.ks-calculator-container, .ks-chart-container {
+  text-align: center;
+}
+
+
+ .btn product__form--add-to-cart.btn.btn--secondary-accent.button.button--full-width.product-form__buttons {
+/*     background-color: blue; */
+}
+
+.jdgm-widget.jdgm-preview-badge.jdgm-preview-badge--with-link.jdgm--done-setup {
+    text-align: center !important;
+}
+

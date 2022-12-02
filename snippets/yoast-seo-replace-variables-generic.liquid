@@ -36,20 +36,7 @@
 	endcapture
 
 	capture shopify_seo_description_replacement
-		case yoast_seo_page_type
-			when 'page'
-				echo page.metafields.global.description_tag | default: ''
-			when 'article'
-				echo article.metafields.global.description_tag | default: ''
-			when 'product'
-				echo product.metafields.global.description_tag | default: ''
-			when 'collection'
-				echo collection.metafields.global.description_tag | default: ''
-			when 'blog'
-				echo blog.metafields.global.description_tag | default: ''
-			else
-				echo ''
-		endcase
+		echo page_description | default: ''
 	endcapture
 
 	capture focus_keyphrase

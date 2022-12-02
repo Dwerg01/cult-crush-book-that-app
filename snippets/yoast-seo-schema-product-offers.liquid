@@ -35,12 +35,12 @@
 		"gtin": {{ variant.barcode | json }},
 {%- endif -%}
 		{%- comment -%}Schema requires a "." seperated value, Shopify uses the locale based convertion in their helper methods.{%- endcomment %}
-		"price": {{ variant.price | divided_by: 100.0 }},
-		"priceCurrency": {{- cart.currency.iso_code | json -}},
 		"availability": "https://schema.org/{{ variant_availability | strip }}",
 		"priceSpecification": {
 			"@type": "PriceSpecification",
-			"valueAddedTaxIncluded": {{ variant.taxable }}
+			"valueAddedTaxIncluded": {{ variant.taxable }},
+			"price": {{ variant.price | divided_by: 100.0 }},
+			"priceCurrency": {{ cart.currency.iso_code | json }}
 		},
 		"url": {{ url | json }}
 	}

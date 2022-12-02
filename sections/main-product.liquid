@@ -145,6 +145,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                   </button>
                 </li>
               {%- endif -%}
+
               {%- for media in product.media -%}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {%- capture media_index -%}
@@ -261,7 +262,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
               </label>
-
+              
               <quantity-input class="quantity">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
@@ -395,6 +396,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
                       </option>
                     {%- endfor -%}
                   </select>
+            
                   {% render 'icon-caret' %}
                 </div>
               </div>
@@ -414,6 +416,7 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  {% render 'booking-form' %}
                   <div class="product-form__buttons">
                     <button
                       type="submit"

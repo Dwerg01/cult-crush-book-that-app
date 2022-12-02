@@ -236,6 +236,49 @@ You can learn more about this (and learn how to cleanly revert these changes) at
 {% include 'ets_instagram_shopping_slider_css' %}
 {% render 'wishlisthero-styles.liquid' %}  {% render 'rapid-search-settings' %}
   {% render 'judgeme_core' %}
+
+ {% comment %} Start Pricing by country {% endcomment %}  
+<style id="priceBlock">
+	 .product-grid .grid__item .price{
+		 visibility: hidden;
+	} 
+</style>
+<script>
+try {
+	 document.addEventListener("DOMSubtreeModified", function(){
+		 var labels1 = document.querySelectorAll(".product-form__input");
+		 for(let i =0; i<labels1.length; i++) {
+			 let ele = labels1[i]; 
+			 if(ele.innerHTML.toLowerCase().includes("currencycountry") && ele.style.display != "none"){
+				 ele.style.display = "none";
+			 }
+		}
+	});
+}catch(error){
+	 console.log("Pricing by country -->",error); 
+	 let ele = document.getElementById("priceBlock"); 
+	 ele.innerHTML = ".product-grid .grid__item .price{visibility: visible;}.product .price{visibility: visible;}" 
+}
+</script>
+
+    <script>
+      var wsShop = "{{shop.permanent_domain}}" 
+      window.wscc_markets = [];
+      {% if localization.available_countries.size > 1 %}
+        window.wscc_markets = [];
+        {% for country in localization.available_countries %}
+          window.wscc_markets.push({
+            country_code:"{{ country.iso_code }}",
+            country:"{{ country.name }}",
+            currency_code:"{{ country.currency.iso_code }}",
+            symbol:"{{ country.currency.symbol }}"
+          });
+        {% endfor %}
+      {% endif %}
+    </script>	 <script defer type="text/javascript" src="https://pricing-by-country-api.webrexstudio.com/pricingbycountry.js?id=6357dbe6e688c810b7e6c7c3" ></script> 
+{% comment %} End Pricing by country {% endcomment %}
+
+  {% render 'shogun-head' %}
 </head>{% include 'izyrent' %}
 
   <body class="gradient">
@@ -250,6 +293,8 @@ You can learn more about this (and learn how to cleanly revert these changes) at
     </main>
 
     {% section 'footer' %}
+
+    <script src="//cdn.codeblackbelt.com/js/modules/currency-converter-plus/main.min.js?shop=cult-crush.myshopify.com" defer></script>
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
@@ -311,6 +356,7 @@ addAnchorToIcons();
 </script>
     
 {% include 'globo.filter.action' %}
-	</body>
+	{% render 'spurit_ros_theme_snippet' %}
+</body>
     <script src="https://cdn.static.kiwisizing.com/SizingPlugin.prod.js?v=308&shop=cult-crush.myshopify.com"></script>
 </html>

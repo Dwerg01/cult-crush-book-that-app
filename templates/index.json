@@ -22,7 +22,7 @@
         "1657117569d25bdd19-0": {
           "type": "heading",
           "settings": {
-            "heading": "RENT. RETURN.",
+            "heading": "RENT. RETURN. REPLACE FAST FASHION.",
             "heading_size": "h1"
           }
         }
@@ -42,6 +42,7 @@
       "blocks": {
         "1655735505af144b75-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "REPLACE FAST FASHION.",
             "heading_size": "h1"
@@ -50,7 +51,7 @@
         "1655735505af144b75-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At Cult Crush, you can rent exclusive, designer looks (in inclusive sizing) for events, and then send them back to us when you’re done. <\/p><p> Welcome to easy, affordable, considered fashion consumption. <\/p>"
+            "text": "<p>Welcome to easy, affordable, considered fashion consumption.<\/p><p>At Cult Crush, you can rent exclusive, designer looks (in inclusive sizing) for events, and then send them back to us when you’re done.<\/p>"
           }
         }
       },
@@ -82,7 +83,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 8,
         "padding_bottom": 8
       }
     },
@@ -340,8 +341,8 @@
         "1652701557be3cc1f8-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1_7d2bedb1-c59e-41a3-aafa-979d2ee3cdff.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/adrienne-blush-13.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -376,8 +377,8 @@
         "16527006039efa0851-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_f73ba516-e99d-4f2c-9ba0-0a2ce9c7e885.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/anastasia-4_836x_cac1d9a4-ea5b-4c93-8360-14876a1e6ac5.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -412,8 +413,8 @@
         "165270132139562385-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_04d98ccd-87d5-47c4-82f5-1c178bc72e3e.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -448,8 +449,8 @@
         "1652701896ebb20a68-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4_0ada4a82-5059-4db4-a180-444c84c6b3b4.png",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/128_1600x_1539846a-5409-48fa-bbd7-c80a642ce469.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -724,10 +725,11 @@
       "type": "apps",
       "blocks": {
         "c4d0df9d-c083-4586-8786-3f079a43e8f9": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-gallery\/blocks\/app-block\/5c329ba9-407e-40ec-a145-431c886f5df9",
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed-app\/blocks\/app-block\/5c329ba9-407e-40ec-a145-431c886f5df9",
           "settings": {
             "heading_font": "playfair_display_n4",
             "heading_size": 20,
+            "heading_alignment": "center",
             "feed_width": 100,
             "section_top_padding": 0,
             "section_bottom_padding": 0,

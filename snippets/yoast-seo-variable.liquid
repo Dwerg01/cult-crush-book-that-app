@@ -17,65 +17,25 @@
 	endcapture
 
 	comment
-	The meta description has a different fallback than the other variables.
-	- meta description: optimize module > shopify default > settings module > auto-generated from description
-	- meta description for index (homepage): settings module > shopify default
-	- other variables:  optimize module > settings module > shopify default
+	The data for the variables is retrieved from different sources. Multiple sources will be touched
+	until one returns content. The order of the data sources is: optimize module > settings module > shopify default.
+	For the data from our modules, we support replacement variables. We don't support that on the default Shopify data.
 	endcomment
 	capture content
 		render 'yoast-seo-variable-from-optimize-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
 	endcapture
 
-	if variable == "description"
-		if content == "" and yoast_seo_page_type != 'index'
-			capture content
-				render 'yoast-seo-variable-from-shopify-default', variable: variable, yoast_seo_page_type: yoast_seo_page_type
-			endcapture
-			if content != ""
-				assign replace_vars = false
-			endif
-
-			if content == ""
-				capture content
-					render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
-				endcapture
-			endif
-
-			if content == ""
-				assign content = page_description
-				if content != ""
-					assign replace_vars = false
-				endif
-			endif
-		endif
-
-		if content == "" and yoast_seo_page_type == 'index'
-			capture content
-				render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
-			endcapture
-
-			if content == ""
-				capture content
-					render 'yoast-seo-variable-from-shopify-default', variable: variable, yoast_seo_page_type: yoast_seo_page_type
-				endcapture
-				if content != ""
-					assign replace_vars = false
-				endif
-			endif
-		endif
-	endif
-
-	if content == "" and variable != "description"
+	if content == ""
 		capture content
 			render 'yoast-seo-variable-from-settings-module', variable: variable, yoast_seo_page_type: yoast_seo_page_type
 		endcapture
+	endif
 
-		if content == ""
-			assign replace_vars = false
-			capture content
-				render 'yoast-seo-variable-from-shopify-default', variable: variable
-			endcapture
-		endif
+	if content == ""
+		assign replace_vars = false
+		capture content
+			render 'yoast-seo-variable-from-shopify-default', variable: variable
+		endcapture
 	endif
 
 	if replace_vars and content != ""

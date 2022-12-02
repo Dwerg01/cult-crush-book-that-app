@@ -15,6 +15,7 @@
     "spacing_grid_vertical": 4,
     "buttons_border_thickness": 0,
     "buttons_border_opacity": 0,
+    "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": -12,
     "buttons_shadow_vertical_offset": -12,
@@ -165,106 +166,6 @@
       "ets_instagram_shopping_slider"
     ],
     "blocks": {
-      "6472724134860490182": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/breadcrumb\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "3650027678699231211": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/article\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "author": "",
-          "publisher": "",
-          "publisherLogoURL": ""
-        }
-      },
-      "18331215849590791805": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/carousel\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "15640154714208799765": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/localBusiness\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "businessType": "AccountingService",
-          "businessName": "",
-          "servesCuisine": "",
-          "streetAddress": "",
-          "addressLocality": "",
-          "region": "",
-          "postalCode": "",
-          "telephone": "",
-          "priceRangeFrom": "",
-          "priceRangeto": "",
-          "DaysOfWeek": "",
-          "opens": "",
-          "closes": ""
-        }
-      },
-      "44692493664754031": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/howTo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6039927293107162517": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/logo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "businessName": "",
-          "url": "",
-          "description": "",
-          "twitterUrl": "",
-          "facebookUrl": "",
-          "instagramUrl": "",
-          "pinterestUrl": "",
-          "linkedinUrl": "",
-          "telephone": "",
-          "streetAddress": "",
-          "city": "",
-          "state": "",
-          "country": "",
-          "zipCode": "",
-          "isReviewAvailable": "no",
-          "reviewCount": "",
-          "ratingValue": "",
-          "bestRating": "",
-          "worstRating": ""
-        }
-      },
-      "13647546867862338453": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/product\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "isShopifyName": "shopify",
-          "reviewsFrom": "none",
-          "moneyFormat": "amount",
-          "globalIdentifier": "none"
-        }
-      },
-      "16565178295617612884": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/recipe\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "9467949409069952136": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/productFAQ\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "9389739334699838615": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/search\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "searchVariable": "search?q={search_term}"
-        }
-      },
       "8882555360308167327": {
         "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/schema-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
         "disabled": false,
@@ -275,22 +176,6 @@
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
-        }
-      },
-      "8199245848789245148": {
-        "type": "shopify:\/\/apps\/esenca-easy-fit\/blocks\/app-embed-block\/0d3b0d1a-d7c1-4cca-af36-947d0b6f12af",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "12654720250257946533": {
-        "type": "shopify:\/\/apps\/bookthatapp\/blocks\/app-embed\/447b4be3-b8e8-4347-959f-d9a05d4b2d5d",
-        "disabled": true,
-        "settings": {
-          "widget_type_1": "none",
-          "widget_position_1": "bottom_right",
-          "widget_type_2": "none",
-          "widget_position_2": "bottom_left"
         }
       }
     }

@@ -14,10 +14,11 @@
             "bb_capitalize": true,
             "bb_font_size": 10,
             "bb_padding": 0,
-            "bb_top_padding": 35,
+            "bb_top_padding": 20,
             "bb_margin": 0,
             "bb_align": "left",
-            "bb_color": "#c0c0c0"
+            "bb_color": "#c0c0c0",
+            "truncator": 20
           }
         }
       },
@@ -55,8 +56,14 @@
           "settings": {
           }
         },
+        "judgeme_preview_badge_product_page_2196ce2b": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "dropdown"
           }
@@ -178,11 +185,6 @@
             "content": "<p>Wear a strapless bra or <a href=\"https:\/\/www.cultcrush.co.za\/products\/booby-tape\" target=\"_blank\" title=\"Booby Tape\">Booby Tape<\/a>.<\/p>",
             "page": ""
           }
-        },
-        "judgeme_preview_badge_product_page_2196ce2b": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -217,6 +219,22 @@
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "judgeme_section_review_widget_727e": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_267cd3c1": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_267cd3c1"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "16546096109b1afe88": {
@@ -322,22 +340,6 @@
         "show_rating": false,
         "padding_top": 0,
         "padding_bottom": 28
-      }
-    },
-    "judgeme_section_review_widget_727e": {
-      "type": "apps",
-      "blocks": {
-        "judgeme_review_widget_267cd3c1": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judgeme_review_widget_267cd3c1"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
