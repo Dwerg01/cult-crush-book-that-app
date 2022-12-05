@@ -172,7 +172,11 @@
             {%- endif -%}
 
             {%- assign compare_at_price = target.compare_at_price -%}
+
             {%- assign price = target.price -%}
+
+            
+
             {%- assign available = target.available | default: false -%}
             {%- assign money_price = price | money -%}
             {%- if settings.currency_code_enabled -%}
@@ -181,7 +185,11 @@
 
             {%- if target == product and product.price_varies -%}
             {% assign price = money_price %}
-            {%- capture money_price %} {% endraw %}{{ 'products.product.price.from_price_html' | t }}{% raw %} {% endcapture %}
+
+            From {{ product.price_min | money }} to {{ product.price_max | money }} 
+  
+
+            {%- capture money_price %} {% endraw %}{{product.price_max}}{% raw %} {% endcapture %}
             {%- endif -%}
             
             <div class="price
