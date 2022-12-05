@@ -199,6 +199,7 @@ cart-remove-button .icon-remove {
 
 .product-option + .product-option {
   margin-top: 0.4rem;
+  display: none;
 }
 
 .product-option * {

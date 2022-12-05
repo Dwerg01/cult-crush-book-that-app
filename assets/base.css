@@ -2856,6 +2856,7 @@ div#gf-products {
   outline: 1px solid black;
   margin: 1rem auto;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .booking-form input.datepicker {
