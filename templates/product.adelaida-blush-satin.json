@@ -104,12 +104,18 @@
           "settings": {
           }
         },
+        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.picture != blank %}\n<p>meta model image<\/p><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Fabric",
             "icon": "shirt",
-            "content": "<p>{{ product.metafields.custom.material | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.material | metafield_tag }} <\/p>",
             "page": ""
           }
         },
@@ -136,7 +142,7 @@
           "settings": {
             "heading": "Retail Value",
             "icon": "price_tag",
-            "content": "<p>R5,655.00<\/p>",
+            "content": "<p>{{ product.metafields.custom.retail_value | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -144,17 +150,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
+            "icon": "washing",
             "content": "<p>Do not clean the garment. We dry-clean every garment before hire period.<\/p><p>Each rental fee includes a Snag and Spill insurance that has you covered in the case of losing a button, a broken strap or a minor champagne spill.<\/p><p>However, if an item is damaged beyond repair or is in need of specialised cleaning, please let us know immediately by emailing: <a href=\"https:\/\/www.cultcrush.co.za\/pages\/contact\" target=\"_blank\" title=\"Contact\">hello@cultcrush.co.za.<\/a> Up to 125% of Retail Value will apply if items are damaged beyond repair, lost or stolen.<\/p><p>You can also take a look at our <a href=\"https:\/\/www.cultcrush.co.za\/pages\/ts-and-cs\" target=\"_blank\" title=\"Terms and Conditions\"><span style=\"text-decoration:underline\">Terms and Conditions <\/span><\/a>for worst-case senarios.<\/p>",
-            "page": ""
-          }
-        },
-        "68696422-aeb5-4148-a255-e038f6e193b0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Model image",
-            "icon": "check_mark",
-            "content": "",
             "page": ""
           }
         },
@@ -188,12 +185,12 @@
         "buy_buttons",
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6",
         "description",
+        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0",
         "collapsible-row-0",
         "7ea05bc8-15b5-4242-b439-737ca59b348f",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "68696422-aeb5-4148-a255-e038f6e193b0",
         "share",
         "bdff7840-2d1b-4325-9262-88a077d25607"
       ],
