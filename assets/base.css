@@ -1766,6 +1766,8 @@ details[open] > .share-button__fallback {
 .customer .field input:-webkit-autofill {
   padding: 2.2rem 1.5rem 0.8rem 2rem;
   margin: var(--inputs-border-width);
+  font-family: var(--font-body-family);
+  font-weight: 300;
 }
 
 .field__input::-webkit-search-cancel-button,
@@ -1820,6 +1822,19 @@ input[type='checkbox'] {
   display: inline-block;
   width: auto;
   margin-right: 0.5rem;
+}
+
+/*   input[type='date']::-webkit-datetime-edit:focus { background-color:hotpink; } */
+/* 
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+ */
+input[type='date']::-webkit-calendar-picker-indicator,
+::-webkit-datetime-edit-day-field:focus,
+::-webkit-datetime-edit-month-field:focus,
+::-webkit-datetime-edit-year-field:focus {
+    background-color: #DABFAC;
+    color: white;
+
 }
 
 /* Form global */
@@ -2889,3 +2904,8 @@ div#gf-products {
 }
 
 
+.total-line--shipping-details, 
+.total-line--recurring-total, 
+.total-line--recurring-total-details { 
+  display: none !important;
+}

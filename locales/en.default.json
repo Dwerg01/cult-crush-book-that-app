@@ -102,7 +102,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to Cart",
       "description": "Description",
       "on_sale": "Sale",
       "product_variants": "Product variants",
@@ -420,7 +420,7 @@
         "unavailable": "Unavailable",
         "on_sale": "Sale",
         "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
+        "add_to_cart": "Add to Cart",
         "back_to_collection": "Back to {{ title }}",
         "view_details": "View details"
       }
@@ -460,6 +460,27 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "order_summary": {
+        "recurring_subtotal_label": " ",
+        "recurring_total_tooltip": "Shipping cost includes delivery to you and collection will made on the final day of your rental"
+      },
+      "subscriptions": {
+        "recurring_totals": " "
+      },
+      "payment": {
+        "purchase_options_agreement_label": "I hereby accept the rental agreement terms of the store"
+      },
+      "shop_policies": {
+        "subscription_policy": " "
+      },
+      "shipping": {
+        "subscription_shipping": "Standard shipping"
+      },
+      "field_errors": {
+        "subscription_agreement_blank": "To continue with your purchase, agree to the rental terms"
+      }
     }
   }
 }

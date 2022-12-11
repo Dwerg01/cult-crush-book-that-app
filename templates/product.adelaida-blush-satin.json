@@ -90,7 +90,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6": {
@@ -102,12 +102,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.custom.picture != blank %}\n<p>meta model image<\/p><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
           }
         },
         "collapsible-row-0": {
@@ -155,6 +149,12 @@
             "page": ""
           }
         },
+        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.picture != blank %}<p><strong>Model reference<\/strong><\/p><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -185,12 +185,12 @@
         "buy_buttons",
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6",
         "description",
-        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0",
         "collapsible-row-0",
         "7ea05bc8-15b5-4242-b439-737ca59b348f",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
+        "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0",
         "share",
         "bdff7840-2d1b-4325-9262-88a077d25607"
       ],
@@ -319,7 +319,7 @@
         "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
         "padding_top": 0,
         "padding_bottom": 28

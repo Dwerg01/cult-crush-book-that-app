@@ -2,7 +2,8 @@
 	This file has been added by the Yoast SEO for Shopify app.
 	You can learn more about this (and learn how to cleanly revert these changes) at https://yoa.st/removing-theme-changes.
 {%- endcomment -%}
-
+{%- assign settings_data = shop.metafields.yoast_seo.settings.value | default: shop.metafields.yoast_seo.settings -%}
+{%- assign output_controls = settings_data.schema.outputControls -%}
 {%- assign offers_schema = "" | split: ',' -%}
 {%- for variant in product.variants %}
 	{%- liquid
@@ -12,13 +13,14 @@
 
 		assign offer_name = product.title
 		assign url = shop.url
+		assign cartUrl = shop.url | append: routes.cart_url | append: "/add?id=" | append: variant.id | append: "&quantity=1"
 
 		comment
 		If there is only one variant, then the variant is the product itself
 		so we should not add any "variant" style output.
 		endcomment
 		if product.variants.size == 1
-			assign url = url |  append: product.url
+			assign url = url | append: product.url
 		else
 			assign offer_name = offer_name | append: " - " | append: variant.title
 			assign url = url | append: variant.url
@@ -42,7 +44,11 @@
 			"price": {{ variant.price | divided_by: 100.0 }},
 			"priceCurrency": {{ cart.currency.iso_code | json }}
 		},
-		"url": {{ url | json }}
+{%- if output_controls.schema and output_controls.organization and settings_data.schema.siteRepresentation.organizationName != "" %}
+		"seller": { "@id": "{{ shop.url }}/#/schema/organization/1" },
+{%- endif %}
+		"url": {{ url | json }},
+		"checkoutPageURLTemplate": {{ cartUrl | json }}
 	}
 	{%- endcapture -%}
 

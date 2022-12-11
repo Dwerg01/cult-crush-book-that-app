@@ -67,7 +67,7 @@
                 data-value="{{filter.values.min}}" 
                 data-min-value="{% if filter.attribute == 'Price' %}{{filter.ranges.min | money_without_format}}{% else %}{{filter.ranges.min}}{% endif %}" 
                 value="{% if filter.attribute == 'Price' %}{{filter.values.min | money_without_format}}{% else %}{{filter.values.min}}{% endif %}" 
-                type="text" 
+                type="text"
                 aria-label="Min value"
               />
               <span class="gf-range-split"> - </span>
