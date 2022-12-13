@@ -73,7 +73,7 @@
 		{%- assign graph_length_minus_trailing_comma = graph_plain | size | minus: 1 %}
 
 {%- if output_controls.schema and output_controls.product and yoast_seo_page_type == "product" and reviewApp != "" -%}
-<!-- Yoast SEO extracts AggregateRating from {{ reviewApp }} app and adds that to Schema.org output. -->
+<!-- Yoast SEO extracts AggregateRating from {{ reviewApp }} and adds that to Schema.org output. -->
 {% endif -%}
 <script type="application/ld+json" id="yoast-schema-graph">
 {

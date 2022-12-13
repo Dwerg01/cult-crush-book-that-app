@@ -20,6 +20,11 @@
 		assign ratingValue = product.metafields.opinew_metafields.reviews_average
 		assign reviewCount = product.metafields.opinew_metafields.reviews_count
 	endif
+
+	if reviewApp == "Shopify standard metafields"
+		assign ratingValue = product.metafields.reviews.rating.value
+		assign reviewCount = product.metafields.reviews.rating_count
+	endif
 -%}
 {%- render 'yoast-seo-schema-product-review' -%}
 {%- if ratingValue != "" and ratingValue != null and reviewCount != "" and reviewCount != null -%}

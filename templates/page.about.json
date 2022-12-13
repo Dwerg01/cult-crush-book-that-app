@@ -313,7 +313,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/279_1600x_3b1e6ffa-1c94-4801-9179-9bc5d1504aa7.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
