@@ -2900,6 +2900,7 @@ div#gf-products {
 
 .spurit-ros__wrapper {
   margin-bottom: 2rem;
+  display: none;
 }
 
 
@@ -2907,4 +2908,8 @@ div#gf-products {
 .total-line--recurring-total, 
 .total-line--recurring-total-details { 
   display: none !important;
+}
+
+a.ui-state-default.ui-state-hover {
+  background-color: #dec5b4 !important;
 }

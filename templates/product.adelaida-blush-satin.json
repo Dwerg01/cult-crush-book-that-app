@@ -152,7 +152,7 @@
         "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.picture != blank %}<p><strong>Model Reference<\/strong><\/p><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.picture != blank %}<h3>MODEL REFERENCE<\/h3><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
           }
         },
         "share": {

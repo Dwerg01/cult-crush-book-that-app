@@ -59,13 +59,6 @@
                   </button>
                 </noscript>
                 
-               <p style="float: none; text-align: right; clear: both; margin: 10px 0; font-size: 0.7em">
-                  <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
-                  <label style="display:inline; float:none" for="agree">
-                  I am older than 18 years of age and I Agree with the <a href="https://www.cultcrush.co.za/pages/ts-and-cs">Terms and Conditions</a>.
-                  </label>
-               </p> <br>
-                
 
                 <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                   {{ 'sections.cart.checkout' | t }}

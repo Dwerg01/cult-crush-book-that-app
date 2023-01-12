@@ -32,7 +32,7 @@ BookThatApp 'Form 1 - Date'
     <input id="{{ attribute }}-{{ product.handle }}" type="text" name="properties[Date]"
            data-bta-range-partner-id="#return-date"
            data-bta-update-finish-date="true"
-           class="datepicker bta required bta-load-enable bta-dp-start" disabled="disabled"
+           class="datepicker bta required bta-load-enable bta-dp-start bta-highlight-duration" disabled="disabled"
            data-handle="{{ product.handle }}" data-variant="{{ product.selected_or_first_available_variant.id }}"
            {% if product.metafields.bookthatapp.json_config %}
              data-bta-product-config='{{ product.metafields.bookthatapp.json_config }}'
