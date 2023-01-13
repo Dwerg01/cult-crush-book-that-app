@@ -170,6 +170,11 @@
             "content": "<p>Wear a strapless bra or <a href=\"https:\/\/www.cultcrush.co.za\/products\/booby-tape\" target=\"_blank\" title=\"Booby Tape\">Booby Tape<\/a>.<\/p>",
             "page": ""
           }
+        },
+        "b9347091-661b-409e-a0d1-c24d4edbb8d5": {
+          "type": "rating",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -192,7 +197,8 @@
         "collapsible-row-3",
         "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0",
         "share",
-        "bdff7840-2d1b-4325-9262-88a077d25607"
+        "bdff7840-2d1b-4325-9262-88a077d25607",
+        "b9347091-661b-409e-a0d1-c24d4edbb8d5"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -203,6 +209,28 @@
         "enable_video_looping": true,
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "1673526523d1876800": {
+      "type": "apps",
+      "blocks": {
+        "2e2a2dc9-8881-4270-a1fe-81df7456a5c0": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "2e2a2dc9-8881-4270-a1fe-81df7456a5c0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1673526573880c1922": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "16546096109b1afe88": {
@@ -329,6 +357,8 @@
   "order": [
     "165883286011ab9e67",
     "main",
+    "1673526523d1876800",
+    "1673526573880c1922",
     "16546096109b1afe88",
     "165460806471747f0a",
     "166971838565e40ea5",
