@@ -63,6 +63,7 @@
         },
         "165529712848d8cd27-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><\/p><p><strong>Here’s how it works:<\/strong><\/p>"
           }
@@ -87,6 +88,7 @@
     },
     "16571173229ea8a0c4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",

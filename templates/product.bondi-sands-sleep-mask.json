@@ -17,7 +17,7 @@
             "bb_top_padding": 20,
             "bb_margin": 0,
             "bb_align": "left",
-            "bb_color": "#C0C0C0",
+            "bb_color": "#c0c0c0",
             "truncator": 20
           }
         }
@@ -84,7 +84,7 @@
           "settings": {
             "heading": "How to Use",
             "icon": "heart",
-            "content": "<p>Smooth formula over clean skin, avoiding putting anything over it.<\/p>",
+            "content": "<p>Smooth formula over clean skin, avoiding putting anything over it. Make sure to wash your hands directly after application.<\/p>",
             "page": ""
           }
         },
@@ -137,6 +137,22 @@
     },
     "165460806471747f0a": {
       "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16739465468e35685a": {
+      "type": "apps",
+      "blocks": {
+        "e3743109-026a-486f-ba3b-23d2f9a4c48f": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e3743109-026a-486f-ba3b-23d2f9a4c48f"
+      ],
       "settings": {
         "include_margins": true
       }
@@ -225,6 +241,7 @@
     "16680015772bdec8d0",
     "main",
     "165460806471747f0a",
+    "16739465468e35685a",
     "16546077838c9ec54c",
     "16546076518aa489ea",
     "16546079384ec65b52",

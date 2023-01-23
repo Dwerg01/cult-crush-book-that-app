@@ -63,9 +63,8 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -75,6 +74,7 @@
         },
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Select your date 2 Days BEFORE event | 4 Day Fixed Rental Period | No Delivery or collections on Weekends or public holidays",
             "text_style": "uppercase"
@@ -82,6 +82,7 @@
         },
         "c997c9cf-29ab-4947-aa1c-5e4565170753": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Read T&C's before renting",
             "page": "ts-and-cs"
@@ -101,27 +102,9 @@
         "69564ef2-ce0f-4c48-9f1d-aab2dcef2a4a": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Application",
+            "heading": "HOW TO USE",
             "icon": "heart",
-            "content": "<p>The tape should be flat and smooth on the skin, any wrinkles can cause the tape to rub. Do not rub the tape, rubbing can make the adhesive bond tighter and could cause irritation to the skin.<\/p>",
-            "page": ""
-          }
-        },
-        "6db1487b-638c-4238-a293-e4c7d24a4fbd": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Removal",
-            "icon": "return",
-            "content": "<p>Never rip the tape off dry skin without oil or moisturiser, this can result in minor tearing and breaking of the skin. Pressing down on the tape whilst pulling is most effective and stops the pull to the skin.Always use your favourite moisturiser or oil around the edges of the tape to help dissolve the adhesive when removing to stop any pull. Start from the bottom corner and pull up slowly and gently. Do not peel down and away from the skin.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Fabric",
-            "icon": "shirt",
-            "content": "<p>5m Roll<\/p><p>Cotton<\/p><p>Spandex<\/p><p>Adhesive<\/p><p>Acrylic<\/p>",
+            "content": "<p>Apply Bondi Sands self-tanning products to the your double-sided self tanning mitt. Rub onto the skin in a circular motion. After use rinse mitt with warm water. Hands will remain perfectly clean.<\/p>",
             "page": ""
           }
         },
@@ -200,8 +183,6 @@
         "buy_buttons",
         "description",
         "69564ef2-ce0f-4c48-9f1d-aab2dcef2a4a",
-        "6db1487b-638c-4238-a293-e4c7d24a4fbd",
-        "collapsible-row-0",
         "7ea05bc8-15b5-4242-b439-737ca59b348f",
         "collapsible-row-1",
         "collapsible-row-2",

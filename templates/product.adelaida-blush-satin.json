@@ -80,17 +80,17 @@
             "text_style": "uppercase"
           }
         },
-        "c997c9cf-29ab-4947-aa1c-5e4565170753": {
-          "type": "popup",
-          "settings": {
-            "text": "Read T&C's Before Renting",
-            "page": "ts-and-cs"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "c997c9cf-29ab-4947-aa1c-5e4565170753": {
+          "type": "popup",
+          "settings": {
+            "text": "*READ T&C's BEFORE RENTING",
+            "page": "ts-and-cs"
           }
         },
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6": {
@@ -186,8 +186,8 @@
         "variant_picker",
         "quantity_selector",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
-        "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "buy_buttons",
+        "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6",
         "description",
         "collapsible-row-0",

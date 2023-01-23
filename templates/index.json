@@ -328,6 +328,14 @@
             "heading_size": "h2"
           }
         },
+        "739830c7-a9be-457d-963e-be53f22d758d": {
+          "type": "caption",
+          "settings": {
+            "caption": "Get your new look delivered, wear it, and then give it back to us in the (v cute) reusable packaging.  Doing things the Cult Crush way means you spend less money on buying endless fast fashion - and more time on considered, sustainable ways to look f*kn great.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "1652701557be3cc1f8-1": {
           "type": "text",
           "settings": {
@@ -338,6 +346,7 @@
       },
       "block_order": [
         "1652701557be3cc1f8-0",
+        "739830c7-a9be-457d-963e-be53f22d758d",
         "1652701557be3cc1f8-1"
       ],
       "settings": {
@@ -364,6 +373,14 @@
             "heading_size": "h2"
           }
         },
+        "89edd3af-14d7-4eba-8fb5-1e7af6e54343": {
+          "type": "caption",
+          "settings": {
+            "caption": "Choose your look from high-end, luxury, on trend pieces, carefully curated from local and international designers.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "16527006039efa0851-1": {
           "type": "text",
           "settings": {
@@ -374,6 +391,7 @@
       },
       "block_order": [
         "16527006039efa0851-0",
+        "89edd3af-14d7-4eba-8fb5-1e7af6e54343",
         "16527006039efa0851-1"
       ],
       "settings": {
@@ -400,6 +418,14 @@
             "heading_size": "h2"
           }
         },
+        "20f01f08-3998-448f-8567-d08939026f79": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our style may be exclusive, but our sizing is most definitely inclusive. We love you in these looks, babe, from XS to 2XL.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "165270132139562385-1": {
           "type": "text",
           "settings": {
@@ -410,6 +436,7 @@
       },
       "block_order": [
         "165270132139562385-0",
+        "20f01f08-3998-448f-8567-d08939026f79",
         "165270132139562385-1"
       ],
       "settings": {
@@ -436,6 +463,14 @@
             "heading_size": "h2"
           }
         },
+        "3b3bbc79-94a6-4d04-8600-d68d69444d15": {
+          "type": "caption",
+          "settings": {
+            "caption": "Revamping a wardrobe every season is not sustainable or affordable. Renting when needed beats non-stop spending, every time.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "1652701896ebb20a68-1": {
           "type": "text",
           "settings": {
@@ -446,6 +481,7 @@
       },
       "block_order": [
         "1652701896ebb20a68-0",
+        "3b3bbc79-94a6-4d04-8600-d68d69444d15",
         "1652701896ebb20a68-1"
       ],
       "settings": {
@@ -727,6 +763,15 @@
         "include_margins": false
       }
     },
+    "07b34246-a8f6-4e76-bab7-0dc28335a4ae": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"instashop-gallery\" data-gallery=\"default\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
     "16540747175e99089a": {
       "type": "newsletter",
       "blocks": {
@@ -757,7 +802,7 @@
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 36,
-        "padding_bottom": 20
+        "padding_bottom": 28
       }
     }
   },
@@ -784,6 +829,7 @@
     "1653392478280a7642",
     "1654254671a64112d3",
     "1653395654bfcf39bc",
+    "07b34246-a8f6-4e76-bab7-0dc28335a4ae",
     "16540747175e99089a"
   ]
 }

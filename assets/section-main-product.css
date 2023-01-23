@@ -150,8 +150,9 @@
 /* Form Elements */
 .product-form__input {
   flex: 0 0 100%;
+  text-align: center;
   padding: 0;
-  margin: 0 0 1.2rem 0;
+  margin: 1.5rem auto !important;
   max-width: 37rem;
   min-width: fit-content;
   border: none;
@@ -171,6 +172,7 @@ variant-selects {
 
 .product-form__input .form__label {
   padding-left: 0;
+  margin: 0 auto;
 }
 
 fieldset.product-form__input .form__label {

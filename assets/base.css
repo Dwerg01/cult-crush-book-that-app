@@ -1900,10 +1900,12 @@ input[type='date']::-webkit-calendar-picker-indicator,
 
 /* component-quantity */
 .quantity {
+  margin: auto;
   color: rgba(var(--color-foreground));
   position: relative;
   width: calc(14rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
   display: flex;
+  justify-content: center;
   border-radius: var(--inputs-radius);
   min-height: calc((var(--inputs-border-width) * 2) + 4.5rem);
 }
@@ -2913,3 +2915,8 @@ div#gf-products {
 a.ui-state-default.ui-state-hover {
   background-color: #dec5b4 !important;
 }
+
+span._19gi7yt0._19gi7ytg._1fragem1t._19gi7yt8 {
+  display: none !important;
+}
+

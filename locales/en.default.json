@@ -28,7 +28,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Continue Shopping",
     "pagination": {
       "label": "Pagination",
       "page": "Page {{ number }}",
@@ -39,7 +39,7 @@
       "search": "Search"
     },
     "cart": {
-      "view": "View my cart ({{ count }})",
+      "view": "View my Cart ({{ count }})",
       "item_added": "Item added to your cart"
     },
     "share": {
@@ -138,7 +138,7 @@
         "unit_price": "Unit price"
       },
       "share": "Share this product",
-      "sold_out": "Sold out",
+      "sold_out": "Sold Out",
       "unavailable": "Unavailable",
       "vendor": "Vendor",
       "video_exit_message": "{{ title }} opens full screen video in same window.",
@@ -233,7 +233,7 @@
       "checkout": "Check out",
       "empty": "Your cart is empty",
       "cart_error": "There was an error while updating your cart. Please try again.",
-      "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
+      "cart_quantity_error_html": "Sorry, babe! Unfortunately, you can only add {{ quantity }} of this item to your cart as there is not enough stock.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
@@ -470,7 +470,10 @@
         "recurring_totals": " "
       },
       "payment": {
-        "purchase_options_agreement_label": "I hereby accept the rental agreement terms of the store"
+        "purchase_options_agreement_label": "I hereby accept the rental agreement terms of the store",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Rental"
+        }
       },
       "shop_policies": {
         "subscription_policy": " "

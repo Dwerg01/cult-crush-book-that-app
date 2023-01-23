@@ -17,7 +17,7 @@
             "bb_top_padding": 20,
             "bb_margin": 0,
             "bb_align": "left",
-            "bb_color": "#C0C0C0",
+            "bb_color": "#c0c0c0",
             "truncator": 20
           }
         }
@@ -141,6 +141,22 @@
         "include_margins": true
       }
     },
+    "167394677486150361": {
+      "type": "apps",
+      "blocks": {
+        "f3f2a6b5-9cee-482d-8140-0a0c3706dd41": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "f3f2a6b5-9cee-482d-8140-0a0c3706dd41"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "16546077838c9ec54c": {
       "type": "rich-text",
       "blocks": {
@@ -225,6 +241,7 @@
     "16680018845981308c",
     "main",
     "165460806471747f0a",
+    "167394677486150361",
     "16546077838c9ec54c",
     "16546076518aa489ea",
     "16546079384ec65b52",

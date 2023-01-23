@@ -38,7 +38,7 @@
           "settings": {
             "heading": "RENT A SECOND DRESS FOR LESS 20%",
             "icon": "heart",
-            "row_content": "<p>Want to make sure you have the right dress for the occasion? Before you check out use our BackUp Dress service which allows you to add a second option to try on for 20% less of the cheaper dress. Simply use the code BackUpDress. So why not  <a href=\"\/collections\/browse-all-rentals\" target=\"_blank\" title=\"Browse All Rentals\">Browse All Rentals<\/a><\/p>",
+            "row_content": "<p>Want to make sure you have the right dress for the occasion? Before you check out use our BackUp Dress service which allows you to add a second option to try on for 20% less of the cheaper dress. <strong>Simply use the code BackUpDress.<\/strong> So why not  <a href=\"\/collections\/browse-all-rentals\" target=\"_blank\" title=\"Browse All Rentals\">Browse All Rentals<\/a><\/p>",
             "page": ""
           }
         },
@@ -86,7 +86,7 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 80,
+        "padding_top": 16,
         "padding_bottom": 80
       }
     }
