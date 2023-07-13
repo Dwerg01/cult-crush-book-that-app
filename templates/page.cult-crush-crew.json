@@ -24,14 +24,14 @@
         "165407904172e09299-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_d56d30db-534f-4dd1-b464-90506b30c2d1.png",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-Community.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -58,7 +58,13 @@
         "16540806117c3dd7ff-0",
         "16540806117c3dd7ff-1"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.1rem;}",
+        "p {letter-spacing: 0.07rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
@@ -72,8 +78,8 @@
           "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "menu": "main-menu",
             "separator": "\/",
-            "home_link": "\/",
             "bb_show_hide": true,
             "bb_capitalize": true,
             "bb_font_size": 10,
@@ -98,22 +104,19 @@
         "287811a4-67ce-4035-80ba-8ef2f616e251": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-11_at_11.29.25_AM.jpg",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-11_at_11.29.25_AM.jpg"
           }
         },
         "c14875ae-2f06-4dfa-a28e-c28983ffdaff": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-11_at_11.29.25_AM_1.jpg",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-11_at_11.29.25_AM_1.jpg"
           }
         },
         "5a04cbc7-6de3-4d92-bf1c-fa26b2f8abfa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4a3d62f6-8688-4086-895f-ccb1df6abfbe.jpg",
-            "image_padding": false
+            "image": "shopify:\/\/shop_images\/4a3d62f6-8688-4086-895f-ccb1df6abfbe.jpg"
           }
         }
       },
@@ -124,8 +127,10 @@
       ],
       "settings": {
         "heading": "",
+        "heading_size": "h1",
         "desktop_layout": "right",
         "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 4,
         "padding_bottom": 80
@@ -145,7 +150,13 @@
       "block_order": [
         "16552933897af2b1c3-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "p {letter-spacing: 0.07rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
@@ -158,8 +169,7 @@
         "1654083750cb5fa1a1-0": {
           "type": "column",
           "settings": {
-            "image_link": "",
-            "image": "shopify:\/\/shop_images\/1_e73347e3-10ff-4c81-85f0-f04c824c2485.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -169,8 +179,7 @@
         "1654083750cb5fa1a1-1": {
           "type": "column",
           "settings": {
-            "image_link": "",
-            "image": "shopify:\/\/shop_images\/2_42c7e95c-e21a-428e-9dc9-74b223ce6e07.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -180,8 +189,7 @@
         "1654083750cb5fa1a1-2": {
           "type": "column",
           "settings": {
-            "image_link": "",
-            "image": "shopify:\/\/shop_images\/3_bc383db2-e755-404f-8f4a-69d9f23e5cf7.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -194,16 +202,23 @@
         "1654083750cb5fa1a1-1",
         "1654083750cb5fa1a1-2"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.1rem;}",
+        "p {letter-spacing: 0.07rem;}"
+      ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "START RENTING",
         "button_link": "shopify:\/\/collections\/collections",
-        "swipe_on_mobile": true,
         "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 64
       }
@@ -242,15 +257,19 @@
         "16540812629acff1fb-1",
         "16540812629acff1fb-2"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "p {letter-spacing: 0.07rem;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/279_1600x_3b1e6ffa-1c94-4801-9179-9bc5d1504aa7.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -262,7 +281,8 @@
         "16540803885ccff29d-0": {
           "type": "heading",
           "settings": {
-            "heading": "SUBSCRIBE TO OUR EMAILS"
+            "heading": "SUBSCRIBE TO OUR EMAILS",
+            "heading_size": "h1"
           }
         },
         "16540803885ccff29d-1": {
@@ -281,6 +301,10 @@
         "16540803885ccff29d-0",
         "16540803885ccff29d-1",
         "16540803885ccff29d-2"
+      ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.1rem;}",
+        "p {letter-spacing: 0.07rem;}"
       ],
       "settings": {
         "color_scheme": "background-2",

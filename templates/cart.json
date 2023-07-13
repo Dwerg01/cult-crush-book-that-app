@@ -3,7 +3,6 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "show_vendor": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -27,21 +26,11 @@
         "buttons"
       ],
       "settings": {
-        "show_cart_note": true
       }
     },
     "1656410269e93bfd82": {
       "type": "collapsible-content",
       "blocks": {
-        "165641026940b753cd-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "RENT A SECOND DRESS FOR LESS 20%",
-            "icon": "heart",
-            "row_content": "<p>Want to make sure you have the right dress for the occasion? Before you check out use our BackUp Dress service which allows you to add a second option to try on for 20% less of the cheaper dress. <strong>Simply use the code BackUpDress.<\/strong> So why not  <a href=\"\/collections\/browse-all-rentals\" target=\"_blank\" title=\"Browse All Rentals\">Browse All Rentals<\/a><\/p>",
-            "page": ""
-          }
-        },
         "165641026940b753cd-2": {
           "type": "collapsible_row",
           "settings": {
@@ -71,7 +60,6 @@
         }
       },
       "block_order": [
-        "165641026940b753cd-0",
         "165641026940b753cd-2",
         "165641026940b753cd-3",
         "165641026940b753cd-1"

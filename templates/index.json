@@ -3,14 +3,14 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Add_a_headig_1_c6b84895-e0e7-4cb7-b660-5ff4e1ea1abc.png",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-Home-Page.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
+        "image_height": "adapt",
         "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -30,7 +30,12 @@
       "block_order": [
         "1657117569d25bdd19-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.3rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -59,7 +64,12 @@
         "1655735505af144b75-0",
         "1655735505af144b75-1"
       ],
+      "custom_css": [
+        "p {letter-spacing: 0.09rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -80,7 +90,12 @@
       "block_order": [
         "16526998637bd24cbd-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 8,
@@ -94,18 +109,18 @@
           "type": "column",
           "settings": {
             "image_link": "shopify:\/\/collections\/night-out",
-            "image": "shopify:\/\/shop_images\/Night_Out_c8b2c686-fcbd-4830-bc3f-5ee054e2c3da.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Night-Out.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/night-out"
+            "link": ""
           }
         },
         "1652696566b9f82745-1": {
           "type": "column",
           "settings": {
             "image_link": "shopify:\/\/collections\/wedding-guest",
-            "image": "shopify:\/\/shop_images\/5_3c0a57f5-f408-41cb-8ff3-0c4c2b7f033e.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Wedding-Guest.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -116,7 +131,7 @@
           "type": "column",
           "settings": {
             "image_link": "shopify:\/\/collections\/matric-dance",
-            "image": "shopify:\/\/shop_images\/6_8787c34a-5a5f-4adb-979b-c250b7b61cbc.png",
+            "image": "shopify:\/\/shop_images\/Cult-Crush-Matric-Dance.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -131,14 +146,17 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "portrait",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true,
         "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 8,
         "padding_bottom": 0
       }
@@ -151,7 +169,10 @@
           "settings": {
             "button_label": "VIEW OCCASIONS",
             "button_link": "shopify:\/\/collections\/occasions",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -159,6 +180,8 @@
         "1657633202de610dad-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 20,
@@ -186,7 +209,12 @@
         "1655729579acaa0db7-0",
         "1655729579acaa0db7-1"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 44,
@@ -204,6 +232,7 @@
     },
     "165572953804be72e1": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -222,7 +251,12 @@
       "block_order": [
         "16526999338d2bf72b-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 60,
@@ -233,15 +267,26 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "just-in",
         "products_to_show": 4,
-        "color_scheme": "background-1",
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
-        "swipe_on_mobile": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 8,
         "padding_bottom": 0
       }
@@ -260,7 +305,12 @@
       "block_order": [
         "1652700052b2cf4597-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 60,
@@ -305,17 +355,17 @@
         "165581939964393894-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-21_at_15.51.25.png",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-How-It-Works_b682441a-019a-4f85-bedf-4878958e2971.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "1652701557eedb5528": {
@@ -349,8 +399,11 @@
         "739830c7-a9be-457d-963e-be53f22d758d",
         "1652701557be3cc1f8-1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/adrienne-blush-13.jpg",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-Sustainable.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -358,6 +411,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 44,
         "padding_bottom": 12
@@ -394,8 +448,11 @@
         "89edd3af-14d7-4eba-8fb5-1e7af6e54343",
         "16527006039efa0851-1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/anastasia-4_836x_cac1d9a4-ea5b-4c93-8360-14876a1e6ac5.jpg",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-On-Trend-Dresses.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -403,6 +460,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 8,
         "padding_bottom": 12
@@ -439,8 +497,11 @@
         "20f01f08-3998-448f-8567-d08939026f79",
         "165270132139562385-1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-Inclusive-Sizing.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -448,6 +509,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 8,
         "padding_bottom": 12
@@ -484,8 +546,11 @@
         "3b3bbc79-94a6-4d04-8600-d68d69444d15",
         "1652701896ebb20a68-1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/128_1600x_1539846a-5409-48fa-bbd7-c80a642ce469.jpg",
+        "image": "shopify:\/\/shop_images\/Cult-Crush-Affordable-Dresses.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -493,98 +558,10 @@
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "background-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 8,
         "padding_bottom": 36
-      }
-    },
-    "1653389044e8f1d5ee": {
-      "type": "brand-logo",
-      "disabled": true,
-      "blocks": {
-        "1653389044cb825fcb-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rat-and-boa.jpg",
-            "link": ""
-          }
-        },
-        "1653389044cb825fcb-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bondi-sands-logo.jpg",
-            "link": ""
-          }
-        },
-        "1653389044cb825fcb-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/booby-tape-logo.jpg",
-            "link": ""
-          }
-        },
-        "1653389044cb825fcb-3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/asos-logo.jpg",
-            "link": ""
-          }
-        },
-        "504a42e7-9466-4deb-9302-59501ebf3d95": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beginning-boutique-logo.jpg",
-            "link": ""
-          }
-        },
-        "450ad385-2477-4c20-a1f8-a73ca0e5e325": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/prett-little-thing.jpg",
-            "link": ""
-          }
-        },
-        "0675392b-2740-4f73-aa3e-8cc651e40528": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sabo-Skirt.jpg",
-            "link": ""
-          }
-        },
-        "28b5aba3-28b0-4aab-8429-f93a5f894523": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "db20ade6-34d2-497b-aba9-5bfeb25bfb4a": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "d1c2258b-61dc-466d-8617-b57830b23197": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1653389044cb825fcb-0",
-        "1653389044cb825fcb-1",
-        "1653389044cb825fcb-2",
-        "1653389044cb825fcb-3",
-        "504a42e7-9466-4deb-9302-59501ebf3d95",
-        "450ad385-2477-4c20-a1f8-a73ca0e5e325",
-        "0675392b-2740-4f73-aa3e-8cc651e40528",
-        "28b5aba3-28b0-4aab-8429-f93a5f894523",
-        "db20ade6-34d2-497b-aba9-5bfeb25bfb4a",
-        "d1c2258b-61dc-466d-8617-b57830b23197"
-      ],
-      "settings": {
-        "title": "",
-        "logo_width": "125px"
       }
     },
     "1654252007c5aa6039": {
@@ -601,7 +578,12 @@
       "block_order": [
         "16542520079e4aa862-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 24,
@@ -724,14 +706,17 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "square",
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "VIEW ALL BRANDS",
         "button_link": "shopify:\/\/collections\/all-brands",
-        "swipe_on_mobile": true,
         "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -750,7 +735,12 @@
       "block_order": [
         "16542546717df59827-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 24,
@@ -763,13 +753,13 @@
         "include_margins": false
       }
     },
-    "07b34246-a8f6-4e76-bab7-0dc28335a4ae": {
+    "66d4f133-67b6-4c61-99ad-ce788df2b1a7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"instashop-gallery\" data-gallery=\"default\"><\/div>",
+        "custom_liquid": "<div class=\"taggbox-container\" style=\"width:100%;height:100%;overflow: auto;\"><div class=\"taggbox-socialwall\" data-wall-id=\"120514\" view-url=\"https:\/\/app.taggshop.io\/s\/120514\"><\/div><\/div>",
         "color_scheme": "background-1",
-        "padding_top": 8,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16540747175e99089a": {
@@ -778,13 +768,14 @@
         "1654074717e33fb5df-0": {
           "type": "heading",
           "settings": {
-            "heading": "KEEP UP WITH THE CC CREW"
+            "heading": "KEEP UP WITH THE CC CREW",
+            "heading_size": "h1"
           }
         },
         "1654074717e33fb5df-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Receive 10% your first order when you subscribe to our mailers | Sign up & be the first to know about new arrivals and exclusive offers<\/p>"
+            "text": "<p>Receive 10% off your first order when you subscribe to our mailers | Sign up & be the first to know about new arrivals and exclusive offers<\/p>"
           }
         },
         "1654074717e33fb5df-2": {
@@ -797,6 +788,10 @@
         "1654074717e33fb5df-0",
         "1654074717e33fb5df-1",
         "1654074717e33fb5df-2"
+      ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "p {letter-spacing: 0.09rem;}"
       ],
       "settings": {
         "color_scheme": "background-2",
@@ -824,12 +819,11 @@
     "1652700603c5cb04ad",
     "1652701321564a6f26",
     "16527018969cead981",
-    "1653389044e8f1d5ee",
     "1654252007c5aa6039",
     "1653392478280a7642",
     "1654254671a64112d3",
     "1653395654bfcf39bc",
-    "07b34246-a8f6-4e76-bab7-0dc28335a4ae",
+    "66d4f133-67b6-4c61-99ad-ce788df2b1a7",
     "16540747175e99089a"
   ]
 }

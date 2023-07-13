@@ -1,5 +1,14 @@
 {
   "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
     "1654766640cfbbf591": {
       "type": "image-banner",
       "blocks": {
@@ -38,17 +47,64 @@
         "1654766640650d1255-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_2f51aebb-e5b6-4cd8-beff-2aee7d2cc2af.png",
+        "image": "{{ collection.metafields.custom.collection_banner_image.value }}",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "1658146765982b35a5": {
+      "type": "apps",
+      "blocks": {
+        "0a706088-351c-4a20-99d3-fae8918995f8": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "menu": "main-menu",
+            "separator": "\/",
+            "bb_show_hide": true,
+            "unclickable": false,
+            "bb_capitalize": true,
+            "bb_font_size": 10,
+            "bb_padding": 0,
+            "bb_top_padding": 35,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "0a706088-351c-4a20-99d3-fae8918995f8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1654515415a1753e66": {
@@ -74,52 +130,39 @@
         "165451541554c4f9a9-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 12
       }
     },
-    "1658146765982b35a5": {
-      "type": "apps",
-      "blocks": {
-        "0a706088-351c-4a20-99d3-fae8918995f8": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
-          "settings": {
-            "home": "Home",
-            "separator": "\/",
-            "home_link": "shopify:\/\/collections\/frontpage",
-            "bb_show_hide": true,
-            "bb_capitalize": true,
-            "bb_font_size": 10,
-            "bb_padding": 0,
-            "bb_top_padding": 35,
-            "bb_margin": 0,
-            "bb_align": "left",
-            "bb_color": "#c0c0c0"
-          }
-        }
-      },
-      "block_order": [
-        "0a706088-351c-4a20-99d3-fae8918995f8"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1654257479d426947b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "boho",
-        "products_to_show": 30,
-        "color_scheme": "background-1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 36
       }
@@ -146,6 +189,8 @@
         "1654516415e1a9e9a8-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 28,
@@ -158,7 +203,6 @@
         "1654515593b1484901-0": {
           "type": "column",
           "settings": {
-            "image_link": "shopify:\/\/collections\/night-out",
             "image": "shopify:\/\/shop_images\/adrienne-blush-13.jpg",
             "title": "",
             "text": "",
@@ -169,7 +213,6 @@
         "1654515593b1484901-1": {
           "type": "column",
           "settings": {
-            "image_link": "shopify:\/\/collections\/bridesmaid",
             "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-1_1500x.progressive_50290df3-649c-48fb-bfa5-99f3141650e4.jpg",
             "title": "",
             "text": "",
@@ -180,7 +223,6 @@
         "1654515593b1484901-2": {
           "type": "column",
           "settings": {
-            "image_link": "shopify:\/\/collections\/wedding-guest",
             "image": "shopify:\/\/shop_images\/anastasia-4_836x_cac1d9a4-ea5b-4c93-8360-14876a1e6ac5.jpg",
             "title": "",
             "text": "",
@@ -191,7 +233,6 @@
         "65dcc272-af2d-4c06-b3d2-8b66916fc6df": {
           "type": "column",
           "settings": {
-            "image_link": "shopify:\/\/collections\/matric-dance",
             "image": "shopify:\/\/shop_images\/13_1600x_ac3fec46-93ea-46cc-9cff-76fc19fd9fc4.jpg",
             "title": "",
             "text": "",
@@ -203,7 +244,6 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image_link": "",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -220,14 +260,17 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "VIEW ALL OCCASIONS",
         "button_link": "shopify:\/\/collections\/collections",
-        "swipe_on_mobile": true,
         "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 64
       }
@@ -240,7 +283,10 @@
           "settings": {
             "button_label": "<  BACK TO HOME PAGE",
             "button_link": "shopify:\/\/collections",
-            "button_style_secondary": true
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -248,6 +294,8 @@
         "16546114102e69f808-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -256,9 +304,11 @@
     }
   },
   "order": [
+    "banner",
     "1654766640cfbbf591",
-    "1654515415a1753e66",
     "1658146765982b35a5",
+    "product-grid",
+    "1654515415a1753e66",
     "1654257479d426947b",
     "165451641540fb9980",
     "1654515593b1191571",

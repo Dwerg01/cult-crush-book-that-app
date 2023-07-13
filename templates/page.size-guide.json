@@ -7,13 +7,13 @@
           "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "menu": "main-menu",
             "separator": "\/",
-            "home_link": "\/",
             "bb_show_hide": true,
             "bb_capitalize": true,
             "bb_font_size": 10,
             "bb_padding": 0,
-            "bb_top_padding": 35,
+            "bb_top_padding": 30,
             "bb_margin": 0,
             "bb_align": "left",
             "bb_color": "#c0c0c0"
@@ -69,11 +69,11 @@
         "image": "shopify:\/\/shop_images\/Add_a_headig_4_92e6f501-8bad-4761-8175-a378675dc89d.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -100,7 +100,13 @@
         "1657704192ec274365-1",
         "1657704192ec274365-0"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "p {letter-spacing: 0.05rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 20,
@@ -120,7 +126,13 @@
       "block_order": [
         "1657704290a6fd7f77-1"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "p {letter-spacing: 0.05rem;}"
+      ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -139,10 +151,12 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/Add_a_headig_YouTube_Thumbnail.jpg",
+        "heading_size": "h1",
+        "enable_video_looping": true,
         "video_url": "https:\/\/vimeo.com\/735194318",
+        "cover_image": "shopify:\/\/shop_images\/Add_a_headig_YouTube_Thumbnail.jpg",
         "description": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3bced37c31f142218d4420b24048fd63.mp4",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -168,6 +182,7 @@
       "settings": {
         "caption": "",
         "heading": "",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
         "color_scheme": "background-1",
@@ -275,9 +290,15 @@
         "2215789d-2f4d-42ca-8c99-bebfbeef7dfa",
         "a7c2d972-befd-4866-8ebb-708e32d58307"
       ],
+      "custom_css": [
+        "h2 {letter-spacing: 0.2rem;}",
+        "h3 {letter-spacing: 0.15rem;}",
+        "p {letter-spacing: 0.05rem;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "DESIGNER'S SIZE GUIDES",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "row",
         "color_scheme": "background-1",

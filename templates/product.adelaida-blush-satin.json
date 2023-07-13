@@ -1,5 +1,15 @@
 {
   "sections": {
+    "b097eb68-dc10-4b93-a301-4936aa8e8801": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<\/head>\n<body>\n<style>\n.breadcrumbs {\nmargin: 40px 0;\n}\n      \n        .breadcrumbs__list {\n          list-style-type: none;\n          margin: 0;\n          padding-top: 10px;\n        padding-right: 30px;\n        padding-bottom: 10px;\n        padding-left: calc(calc(50% - 740px)+10px);\n        }\n      \n        .breadcrumbs__item {\n          display: inline-block;\n        }\n      \n        .breadcrumbs__item:not(:last-child):after {\n          border-style: solid;\n          border-width: .10em .10em 0 0;\n          content: '';\n          display: inline-block;\n          height: .20em;\n          margin: 0 .20em;\n          position: relative;\n          transform: rotate(45deg);\n          vertical-align: middle;\n          width: .20em;\n        }\n      \n        .breadcrumbs__link {\n          text-decoration: underline;\n        }\n      \n        .breadcrumbs__link[aria-current=\"page\"] {\n          color: inherit;\n          font-weight: normal;\n          text-decoration: none;\n        }\n      \n      .breadcrumbs__link[aria-current=\"page\"]:hover,\n        .breadcrumbs__link[aria-current=\"page\"]:focus {\n          text-decoration: underline;\n        }\n    .back {\n    margin-left: 0.5rem;   \n    color: hsl(186, 14%, 71%);\n    }\nol {\nmax-width: 1400px;\ndisplay: flex;\nmargin: 0 auto !important;\n}\n.breadcrumbs__item.back {\nmargin-left: auto;\n}\n@media screen and (max-width: 500px){\n.breadcrumbs__item:last-of-type {\nmargin:auto;\n}\n}\n      <\/style>\n      \n      {%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n      {%- assign t = template | split: '.' | first -%}\n      \n      <nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n        <ol class=\"breadcrumbs__list\">\n          <li class=\"breadcrumbs__item\">\n            <a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n          <\/li>\n    \n          {%- case t -%}\n            {%- when 'page' -%}\n              <li class=\"breadcrumbs__item\">\n                <a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n              <\/li>\n            {%- when 'product' -%}\n              {%- if collection.url -%}\n                <li class=\"breadcrumbs__item\">\n                  {{ collection.title | link_to: collection.url }}\n                <\/li>\n              {%- endif -%}\n              <li class=\"breadcrumbs__item\">\n                <a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n              <\/li>\n            {%- when 'collection' and collection.handle -%}\n              {%- if current_tags -%}\n                <li class=\"breadcrumbs__item\">\n                  {{ collection.title | link_to: collection.url }}\n                <\/li>\n                <li class=\"breadcrumbs__item\">\n                  {%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n                  <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n                <\/li>\n              {%- else -%}\n                <li class=\"breadcrumbs__item\">\n                  <a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n                <\/li>\n              {%- endif -%}\n            {%- when 'blog' -%}\n              {%- if current_tags -%}\n                <li class=\"breadcrumbs__item\">\n                  {{ blog.title | link_to: blog.url }}\n                <\/li>\n                <li class=\"breadcrumbs__item\">\n                  {%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n                  <a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n                <\/li>\n              {%- else -%}\n                <li class=\"breadcrumbs__item\">\n                  <a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n                <\/li>\n              {%- endif -%}\n            {%- when 'article' -%}\n              <li class=\"breadcrumbs__item\">\n                {{ blog.title | link_to: blog.url }}\n              <\/li>\n              <li class=\"breadcrumbs__item\">\n                <a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n              <\/li>\n            {%- else -%}\n              <li class=\"breadcrumbs__item\">\n                <a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n              <\/li>\n          {%- endcase -%}\n          <li class=\"breadcrumbs__item back\">\n            <a class=\"breadcrumbs__link back\" href=\"javascript:window. history. back();\">Back<\/a>\n        <\/li>\n        <\/ol>\n      <\/nav>\n      {%- endunless -%}\n<\/body>\n<\/html>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "165883286011ab9e67": {
       "type": "apps",
       "blocks": {
@@ -7,14 +17,15 @@
           "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/product-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "menu": "main-menu",
             "separator": "\/",
-            "home_link": "shopify:\/\/collections\/frontpage",
             "bb_show_hide": true,
+            "unclickable": false,
             "bb_show_more": false,
             "bb_capitalize": true,
             "bb_font_size": 10,
             "bb_padding": 0,
-            "bb_top_padding": 35,
+            "bb_top_padding": 12,
             "bb_margin": 0,
             "bb_align": "left",
             "bb_color": "#c0c0c0",
@@ -27,6 +38,37 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "fc4a7c93-fda2-47ce-a9ff-f114373dbd45": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "f91ac538-30a7-4b34-aedb-e901b528884b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HOUSE OF CB<\/p>"
+          }
+        },
+        "template--14704312680518__fc4a7c93-fda2-47ce-a9ff-f114373dbd45-1674900880b086cbca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ADELAIDA BLUSH SATIN STRAPLESS GOWN",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "f91ac538-30a7-4b34-aedb-e901b528884b",
+        "template--14704312680518__fc4a7c93-fda2-47ce-a9ff-f114373dbd45-1674900880b086cbca-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "main": {
@@ -76,14 +118,15 @@
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59": {
           "type": "text",
           "settings": {
-            "text": "Select your date 2 Days BEFORE event | 4 Day Fixed Rental Period | No Delivery or collections on Weekends or public holidays",
+            "text": "Select your date 2 Days BEFORE event to allow for delivery | 4 Day Fixed Rental Period | No Delivery or collections on Weekends or public holidays",
             "text_style": "uppercase"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "c997c9cf-29ab-4947-aa1c-5e4565170753": {
@@ -152,11 +195,12 @@
         "b0caabe4-52b5-40a7-ba6d-a03cc1f8cda0": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.picture != blank %}<h3>MODEL REFERENCE<\/h3><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.picture != blank %}<div class=\"model-ref\"><h3>MODEL REFERENCE<\/h3><img src=\"{{ product.metafields.custom.picture | img_url: '500x500' }}\" style=\"width: clamp(300px, 100%, 480px)\"\/><\/div>\n{% endif %}"
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -200,11 +244,26 @@
         "bdff7840-2d1b-4325-9262-88a077d25607",
         "b9347091-661b-409e-a0d1-c24d4edbb8d5"
       ],
+      "custom_css": [
+        "a {text-align: center;}",
+        ".product-form__input {display: flex; justify-content: center; width: 100%; margin: 0; max-width: unset;}",
+        ".product-form__buttons {margin: auto;}",
+        ".product__description {text-align: left;}",
+        "label {background-color: #d3bfb4; color: #000;}",
+        "button {margin: auto;}",
+        ".grid__item.product__media-wrapper {}",
+        ".product__description {width: 100%;}",
+        "@media screen and (min-width: 750px) {.model-ref {width: 51%; } .product__description {width: 50%; } .product {justify-content: flex-end; } .product__accordion {width: 51%; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
         "media_size": "small",
-        "mobile_thumbnails": "hide",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": true,
         "padding_top": 0,
@@ -247,6 +306,8 @@
         "ab0b14c3-d479-4c5f-853b-93ebde5fc192"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -296,6 +357,8 @@
         "b1ed3d46-15c2-4c24-821c-30fbc887c543"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 60,
@@ -306,15 +369,26 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "shop-accessories",
         "products_to_show": 4,
-        "color_scheme": "background-1",
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
-        "swipe_on_mobile": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "portrait",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -334,28 +408,37 @@
         "1654607938ba71f3d7-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "related-products": {
+      "type": "related-products",
       "settings": {
         "heading": "",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
+        "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 28
       }
     }
   },
   "order": [
+    "b097eb68-dc10-4b93-a301-4936aa8e8801",
     "165883286011ab9e67",
+    "fc4a7c93-fda2-47ce-a9ff-f114373dbd45",
     "main",
     "1673526523d1876800",
     "1673526573880c1922",
@@ -366,6 +449,6 @@
     "16546077838c9ec54c",
     "16546076518aa489ea",
     "16546079384ec65b52",
-    "product-recommendations"
+    "related-products"
   ]
 }

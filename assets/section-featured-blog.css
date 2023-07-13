@@ -20,6 +20,10 @@
   position: relative;
 }
 
+.blog-placeholder .placeholder .placeholder-svg {
+  height: auto;
+}
+
 .blog-placeholder h2 {
   margin: 0;
 }
@@ -27,6 +31,12 @@
 .blog-placeholder .rte-width {
   margin-top: 1.2rem;
   color: rgba(var(--color-foreground), 0.75);
+}
+
+@media screen and (min-width: 990px) {
+  .grid--1-col-desktop .article-card .card__content {
+    text-align: center;
+  }
 }
 
 .blog__title {
@@ -49,7 +59,7 @@
 
 @media screen and (max-width: 749px) {
   .blog__post.article {
-    width: calc(100% - 3rem);
+    width: calc(100% - 3rem - var(--grid-mobile-horizontal-spacing));
   }
 }
 

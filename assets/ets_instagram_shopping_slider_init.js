@@ -1,1 +1,0 @@
-var eissInitApp = true;

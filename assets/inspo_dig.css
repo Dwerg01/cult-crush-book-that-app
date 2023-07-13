@@ -1,0 +1,10 @@
+/* This file contains additional CSS that applies globally */
+
+
+.shopify-policy__title {
+  text-transform: uppercase;
+}
+
+.text-area-custom {
+  width: 100%;
+}
