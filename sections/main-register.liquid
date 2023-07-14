@@ -110,6 +110,38 @@
         {{ form.errors.messages.email }}.
       </span>
     {%- endif -%}
+
+    <div class="field">      
+      <input
+        type="date"
+        name="customer[note][Birthday]"
+        id="RegisterForm-Birthday"
+        {% if form.first_name %} value="{{ form.first_name }}"{% endif %}
+        autocomplete="given-name"
+        required
+        placeholder="Birthday"
+        min="1960-01-01"
+        max="2005-12-31"
+      >
+      <label for="RegisterForm-Birthday">
+        Birthday <span aria-hidden="true">*</span>
+      </label>
+    </div>
+
+    <div class="field">      
+      <input
+        type="text"
+        name="customer_address[city]"
+        id="RegisterForm-City"
+        {% if form.city %}value="{{ form.city }}"{% endif %}
+        autocomplete="home city"
+        required
+        placeholder="City"
+      >
+      <label for="RegisterForm-City">
+        Current City <span aria-hidden="true">*</span>
+      </label>
+    </div>        
     <div class="field">
       <input
         type="password"
