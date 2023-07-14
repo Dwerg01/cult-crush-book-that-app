@@ -245,7 +245,7 @@
         "b9347091-661b-409e-a0d1-c24d4edbb8d5"
       ],
       "custom_css": [
-        "a {text-align: center;}",
+        "{text-align: center;}",
         ".product-form__input {display: flex; justify-content: center; width: 100%; margin: 0; max-width: unset;}",
         ".product-form__buttons {margin: auto;}",
         ".product__description {text-align: left;}",
