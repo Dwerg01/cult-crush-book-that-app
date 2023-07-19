@@ -129,6 +129,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "d2891035-f3dd-48e8-9d3b-2d7dfa9f250f": {
+          "type": "shopify:\/\/apps\/recurringo-subscriptions\/blocks\/app-block\/5f376911-834a-4278-91b6-907e54e73a2b",
+          "settings": {
+          }
+        },
         "c997c9cf-29ab-4947-aa1c-5e4565170753": {
           "type": "popup",
           "settings": {
@@ -231,6 +236,7 @@
         "quantity_selector",
         "bfc106fb-a6e9-46a7-9ff8-99aa174d2f59",
         "buy_buttons",
+        "d2891035-f3dd-48e8-9d3b-2d7dfa9f250f",
         "c997c9cf-29ab-4947-aa1c-5e4565170753",
         "7fd20d61-61fc-439a-8977-cee3b28d1ee6",
         "description",
@@ -248,12 +254,10 @@
         "{text-align: center;}",
         ".product-form__input {display: flex; justify-content: center; width: 100%; margin: 0; max-width: unset;}",
         ".product-form__buttons {margin: auto;}",
-        ".product__description {text-align: left;}",
-        "label {background-color: #d3bfb4; color: #000;}",
+        ".product__description {text-align: justify;}",
         "button {margin: auto;}",
-        ".grid__item.product__media-wrapper {}",
-        ".product__description {width: 100%;}",
-        "@media screen and (min-width: 750px) {.model-ref {width: 51%; } .product__description {width: 50%; } .product {justify-content: flex-end; } .product__accordion {width: 51%; }}"
+        ".product__description,.product__accordion {width: 100%;}",
+        "@media screen and (min-width: 750px) {.model-ref {width: 51%; } .product {justify-content: flex-end; } .product__accordion, .product__description {width: 51%; }}"
       ],
       "settings": {
         "enable_sticky_info": true,

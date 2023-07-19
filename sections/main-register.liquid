@@ -61,7 +61,7 @@
         placeholder="{{ 'customer.register.first_name' | t }}"
       >
       <label for="RegisterForm-FirstName">
-        {{ 'customer.register.first_name' | t }}
+        {{ 'customer.register.first_name' | t }} *
       </label>
     </div>
     <div class="field">
@@ -76,7 +76,7 @@
         placeholder="{{ 'customer.register.last_name' | t }}"
       >
       <label for="RegisterForm-LastName">
-        {{ 'customer.register.last_name' | t }}
+        {{ 'customer.register.last_name' | t }} *
       </label>
     </div>
     <div class="field">
@@ -98,7 +98,7 @@
         placeholder="{{ 'customer.register.email' | t }}"
       >
       <label for="RegisterForm-email">
-        {{ 'customer.register.email' | t }}
+        {{ 'customer.register.email' | t }} *
       </label>
     </div>
     {%- if form.errors contains 'email' -%}
@@ -120,11 +120,11 @@
         autocomplete="given-name"
         required
         placeholder="Birthday"
-        min="1960-01-01"
-        max="2005-12-31"
+        min="1950-01-01"
+        max="2010-12-31"
       >
       <label for="RegisterForm-Birthday">
-        Birthday <span aria-hidden="true">*</span>
+        Birthday *
       </label>
     </div>
 
@@ -155,7 +155,7 @@
         placeholder="{{ 'customer.register.password' | t }}"
       >
       <label for="RegisterForm-password">
-        {{ 'customer.register.password' | t }}
+        {{ 'customer.register.password' | t }} *
       </label>
     </div>
     {%- if form.errors contains 'password' -%}

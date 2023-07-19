@@ -8,3 +8,132 @@
 .text-area-custom {
   width: 100%;
 }
+
+#wishlisthero-product-page-button-container > button {
+  width: 100%;
+  max-width: 440px;
+}
+
+fieldset > label {
+  border: 1px solid #d3bfb4 !important;
+}
+
+#wishlisthero-product-page-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.booking-form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 1rem;
+}
+
+.booking-form > div > label {
+  background-color: #fff !important;
+  border: none;
+}
+
+.product-form__input input[type=radio]:checked+label{
+  font-weight: 600;
+  background-color: #d3bfb4 !important;
+
+}
+
+
+.booking-form input, .bta-time {
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding-left: 5px;
+  outline: 1px solid black;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.booking-form input.datepicker {
+  background-image: url(//cdn.shopify.com/s/files/1/0031/0882/t/34/assets/calendar.png);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+.ui-state-default .ui-state-active{
+  background-color: #d3bfb4 !important;
+}
+
+.ui-datepicker-inline {
+
+  outline: 3px solid #DABFAC;
+}
+
+.ui-datepicker-header {
+  background: #DABFAC !important;
+}
+
+.ui-state-active {
+  background: #dabfac !important;
+  border: 1px solid black !important;
+}
+
+.jdgm-widget.jdgm--done-setup {
+    text-align: center !important;
+}
+
+.spurit-ros__wrapper {
+  margin-bottom: 2rem;
+  display: none;
+}
+
+
+.total-line--shipping-details, 
+.total-line--recurring-total, 
+.total-line--recurring-total-details { 
+  display: none !important;
+}
+
+a.ui-state-default.ui-state-hover {
+  background-color: #dec5b4 !important;
+}
+
+
+/* BTA search results page custom font  */
+.item-vendor, .item-title>a, .item-details>span {
+  font-family: Lato, sans-serif;
+  color: black;
+}
+
+
+.item-details>span {
+  font-size: 16px;
+}
+
+.item-title>a {
+  font-family: var(--font-heading-family);
+  font-size: 16px;
+}
+
+
+/* @TODO remove this code to test if it making any difference - related to checkout */
+._19gi7ytg._19gi7yt8, 
+._19gi7yt0._19gi7ytg._1fragem1l._19gi7yt9,
+._1qy6ue61._1fragem1d._1qy6ue68 {
+  display: none !important;
+}
+#app > div > div > div > div:nth-child(1) > div > div.I3DjT.TeFT5 > div > footer > div > div > div > button:nth-child(4) > span > span {
+  display: none !important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+

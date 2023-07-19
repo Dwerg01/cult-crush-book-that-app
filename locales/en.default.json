@@ -476,5 +476,73 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "subscription_pickup_information": "This delivery method applies to ll products in this order"
+      },
+      "order_summary": {
+        "subscriptions": " ",
+        "recurring_subtotal_label": " ",
+        "recurring_total_label": " ",
+        "recurring_total_tooltip": "Includes shipping, VAT and discounts",
+        "recurring_payments": " ",
+        "recurring_total_multiple_label": " "
+      },
+      "shipping": {
+        "shipping_method_subscription_group_title": " ",
+        "subscription_shipping": " ",
+        "subscription_local_delivery": " ",
+        "subscription_pickup": " ",
+        "subscription_delivery_description": {
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": " ",
+              "other": " "
+            },
+            "week": {
+              "one": " ",
+              "other": " "
+            },
+            "month": {
+              "one": " ",
+              "other": " "
+            },
+            "year": {
+              "other": " ",
+              "one": " "
+            }
+          }
+        }
+      },
+      "payment": {
+        "paypal_modal": {
+          "order_contains_subscriptions": " "
+        },
+        "subscription_card_update_agreement_label": "Changing the payment method will change this payment and future payments",
+        "subscription_agreement_label": " ",
+        "subscription_agreement_label_html": " ",
+        "purchase_options_agreement_label_html": " ",
+        "purchase_options_agreement_label": "By continuing, I agree to the {{ cancellation_policy_label }} and authorize you to charge my payment method at the prices listed on this page."
+      },
+      "field_errors": {
+        "purchase_options_agreement_blank": "To continue with your purchase, please agree to the terms of service"
+      },
+      "shop_policies": {
+        "subscription_policy": "  "
+      },
+      "subscriptions": {
+        "recurring_totals": " ",
+        "recurring_totals_with_policies": {
+          "following_cycles": " "
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "subscription_policy": " "
+    }
   }
 }

@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-register",
+      "custom_css": [
+        "span {font-family: Lato, sans-serif; font-weight: 300 !important;}"
+      ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36

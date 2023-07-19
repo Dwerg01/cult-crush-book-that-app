@@ -26,7 +26,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Cult-Crush-Community.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -84,7 +84,7 @@
             "bb_capitalize": true,
             "bb_font_size": 10,
             "bb_padding": 0,
-            "bb_top_padding": 35,
+            "bb_top_padding": 12,
             "bb_margin": 0,
             "bb_align": "left",
             "bb_color": "#c0c0c0"
@@ -129,7 +129,7 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "right",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 4,
@@ -169,6 +169,7 @@
         "1654083750cb5fa1a1-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial1.jpg",
             "title": "",
             "text": "",
@@ -179,6 +180,7 @@
         "1654083750cb5fa1a1-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial2.jpg",
             "title": "",
             "text": "",
@@ -189,6 +191,7 @@
         "1654083750cb5fa1a1-2": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/Cult-Crush-Testimonial3.jpg",
             "title": "",
             "text": "",

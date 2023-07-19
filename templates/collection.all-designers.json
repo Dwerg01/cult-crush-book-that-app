@@ -103,6 +103,9 @@
         "1654521257e58f5ec8-1",
         "1654521257e58f5ec8-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/99_1600x_577fba7f-8312-4991-9519-05a2d5e8f3a2.png",
         "height": "adapt",
@@ -147,6 +150,9 @@
         "16526982562cfbf720-0",
         "16526982562cfbf720-1",
         "16526982562cfbf720-2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/anastasia-2_836x_8f4e1769-2e2d-41c8-942a-771b546bcb65.jpg",
@@ -193,6 +199,9 @@
         "1655292547c6d3e997-1",
         "1655292547c6d3e997-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/31_1600x_7f2ff306-a9ca-499f-8e7d-5a9582ab2139.png",
         "height": "adapt",
@@ -237,6 +246,9 @@
         "16542529539835b620-0",
         "16542529539835b620-1",
         "16542529539835b620-2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/FloraFloralMaxiDress-1_1500x.progressive_baa10cc1-c397-4605-bb0b-ecc845f92400.jpg",
@@ -283,6 +295,9 @@
         "16542534973eba5832-1",
         "16542534973eba5832-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
         "height": "adapt",
@@ -327,6 +342,9 @@
         "165269493025031793-0",
         "165269493025031793-1",
         "165269493025031793-2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/201486120-4.webp",

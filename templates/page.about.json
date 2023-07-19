@@ -123,7 +123,7 @@
             "bb_capitalize": true,
             "bb_font_size": 10,
             "bb_padding": 0,
-            "bb_top_padding": 35,
+            "bb_top_padding": 12,
             "bb_margin": 0,
             "bb_align": "left",
             "bb_color": "#c0c0c0"

@@ -169,6 +169,9 @@
         "16526982562cfbf720-1",
         "16526982562cfbf720-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SchifferSlipDressPalePink-2_1500x.progressive_2031ec18-b09a-46ed-9973-a9962833ea53.jpg",
         "height": "adapt",
@@ -214,9 +217,12 @@
         "165269493025031793-1",
         "165269493025031793-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/09f2aa02992f19b52e7c92cc9e4886b84dc10f02_cmn8285_3.webp",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -258,6 +264,9 @@
         "16542534973eba5832-0",
         "16542534973eba5832-1",
         "16542534973eba5832-2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3_1600x_5171d6d8-7049-4b76-b201-9086ca4dacb9.png",
@@ -303,6 +312,9 @@
         "16542529539835b620-0",
         "16542529539835b620-1",
         "16542529539835b620-2"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.image-with-text__media-item {height: 200px; overflow: hidden; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/69_1600x_56ba9fb3-2f40-44e0-b38d-55fd2d18a2c8.jpg",
@@ -355,6 +367,7 @@
         "165460339754eb9040-0": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/tibi-b11.jpg",
             "title": "",
             "text": "",
@@ -365,6 +378,7 @@
         "165460339754eb9040-1": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/anastasia-4_836x_d702395d-4a2b-4cee-9318-bede90d33cf4.jpg",
             "title": "",
             "text": "",
@@ -375,6 +389,7 @@
         "165460339754eb9040-2": {
           "type": "column",
           "settings": {
+            "image_link": "",
             "image": "shopify:\/\/shop_images\/WistfulGreenMidiDress-2_500x.progressive_ace0b027-d6a5-40d1-ad77-7619da8d14f1.jpg",
             "title": "",
             "text": "",

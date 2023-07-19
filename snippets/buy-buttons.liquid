@@ -69,6 +69,7 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+        {% render 'booking-form' %}
           <button
             id = "ProductSubmitButton-{{ section_id }}"
             type="submit"
@@ -78,11 +79,16 @@
               disabled
             {% endif %}
           >
+        {% assign template_name = 'adelaida-blush-satin' %}
             <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {% if product.template_suffix != template_name %}
+                    ADD TO CART
+                {% else %}
+                    {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
               {%- endif -%}
             </span>
             <div class="loading-overlay__spinner hidden">
